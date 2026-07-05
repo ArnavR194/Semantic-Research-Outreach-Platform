@@ -1,0 +1,3188 @@
+[
+  {
+    "name": "Ivan Thomas Abraham",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/itabrah2",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "itabrah2@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Control",
+      "Robotics, vision, and artificial intelligence",
+      "Signal Processing"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Data/Information Science and Systems",
+      "Neuro-engineering"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Saksham Agarwal",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/saksham",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "saksham@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Communications",
+      "Computer architecture",
+      "Networking and distributed computing",
+      "Operating systems"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Daniel Alabi",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/alabid",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "alabid@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Algorithms and computational complexity",
+      "Computer security, privacy, and information trust",
+      "Cryptographic systems and protocols",
+      "Information theory"
+    ],
+    "research_topics": [
+      "AI Theory",
+      "Cybersecurity and privacy",
+      "Quantum Information Processing",
+      "Security, Trust, Verification"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Jont  Allen",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jontalle",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jontalle@illinois.edu",
+    "research_interests": [
+      "Music perception",
+      "Musical Acoustics (guitars, fiddles, some wind instruments)",
+      "Evanescent wave propagation in horns",
+      "Transducer physics and modeling (Loudspeakers)",
+      "Wave propagation in inhomogeneous media. Acoustic horns.",
+      "Models of the outer hair cells of the cochlea. Biophysical model of hair cell membrane mechanical properties, as a function of membrane voltage. (with Paul Fahey, Univ. Scranton, physics dept.)",
+      "Modeling the middle ear in the time domain, with wave models. How does the eardrum transform the acoustic energy and funnel it into the cochlea?",
+      "Robust human speech recognition",
+      "Speech and music coding",
+      "Articulation index modeling of confusion matrix measurements, of consonant vowel sounds, in noise",
+      "Speech processing for hearing aid applications: Special signal processing techniques for removing reverberation and noise; multiband compression for loudness recruitment abatement;",
+      "Auditory psychophysics: Intensity just noticeable difference (JND), speech psychophysics; confusion matrices; information processing by the auditory system",
+      "Human speech recognition: Reverse engineering, measuring and modeling speech cues used by the human auditory system, when recognizing speech in large amounts of noise and with filtering; Articulation index; confusion matrices; information processing by the auditory system with speech as the signal",
+      "Noninvasive diagnostic testing of the cochlear and middle ear: Otoacoustic emissions measured in the ear canal; noninvasive diagnostics; distortion product measurements; SFOAE; impedance; power reflectance of the ear canal",
+      "Cochlear modeling: Mathematical models of cochlear function, including basilar membrane motion, biophysical models of outer hair cells; models of the micromechanics, including the tectorial membrane and cilia motions."
+    ],
+    "research_areas": [
+      "Acoustics",
+      "Adaptive signal processing",
+      "Analog integrated circuits",
+      "Audio, speech, music and auditory processing",
+      "Communications",
+      "Electromagnetic theory",
+      "High-frequency circuits",
+      "Microwave devices and circuits",
+      "Nonlinear systems and control",
+      "Radio and optical wave propagation",
+      "Signal Processing",
+      "Speech recognition and processing"
+    ],
+    "research_topics": [
+      "RF and microwave engineering"
+    ],
+    "bio": "Allens website is ( http://auditorymodels.org ) BIO:\nDuring his 32 year AT&T Bell Labs career (after 1998, AT&T Labs) Allen specialized in nonlinear cochlear modeling, auditory and cochlear speech processing, and speech perception. While at AT&T Allen wrote more than 50 sole-authored journal articles on hearing, cochlear modeling, signal processing, room acoustics, speech perception and the articulation index (AI, a.k.a.  speech transmission index (STI), Speech intelligibility index (SII)). In 1982-1987 Allen he had primary responsibility with the development of the first commercial multiband wideband dynamic range compression (WDRC) hearing aid, later sold as the ReSound hearing aid. During this 5 years he was working closely with clinical audiologists and speech and hearing scientists, and with several hearing aid manufactures (Starkey, Phonak, Etymotic), who subsequently funded Allen's work.  During this period Allen wrote the first DSP code and developed the first fitting system, based on loudness in 1/2 octave bands (LGOB) which was used by ReSound as their commercial fitting system for many years. He was also responsible for the first analog compression circuits used in the primary product, that was produced by AT&T for ReSound, at the Allentown PA silicon foundry. Starting in 1986, Allen developed one of the first systems for non-evasively evaluating cochlear hearing using distortion produce otoacoustic emissions (DPOAEs), known as the (Cub^eDis) measurement system, which for several years (1988-1995) was commercially sold by Etymotic research, and after that by Mimosa Acoustics, for which Allen serves as the Chief Technology Officer (CTO). From 1998-2003, while at AT&T Labs, a spin off from Bell Labs, Allen worked on Loudness and consonant perception, which is a problem closely related to AI theory. In Aug. 2003 he join the ECE faculty, University of IL, Urbana where he teaches and works with his students on noninvasive objective diagnostic testing of cochlear and middle ear function, based on  acoustic reflectance (aka impedance) methods of the middle ear, auditory psychophysics, speech processing for hearing aid applications (noise reduction and multiband compression), speech and music coding (bit-rate reduction) and speech perception (models of loudness and  masking) and hearing aid transducer modeling. He is most actively working on the theory and practice of human speech recognition, for both normal and hearing impaired hearing, with the goals of improving hearing aid signal processing as well as automatic speech recognition robustness in the presences of noise and filtering.  From 2003-present, Allen has a number of students active in various projects on speech perception, middle ear models and hearing aid signal processing ( Allen's Research Group) In the last 10 years Allen and his students have collected several large databases of speech perception in noise, by normal and impaired human subjects. This work has resulting in many publications on human speech perception.   From 2005-present Allen has also studied reading disabilities in young children. This work has been in collaboration with Prof. Cynthia Johnson of the UIUC Speech and Hearing Science Department (and many of her students). A third major research topic is the diagnosis of middle ear disorders, based on acoustic impedance measurements.This  work is well documented in the publications from 1974-2015  ( http://auditorymodels.web.engr.illinois.edu//index.php/Main/Publications ). Allen has successfully developed several complex and innovative research programs,  first at Bell Labs in 1995  (cochlear modeling), followed by the development of the Bell Labs multiband compression hearing aid (1985-88) (Now labeled as GN-ReSound en.wikipedia.org/wiki/ReSound ), followed by his speech perception research at UIUC in 2003 with his group of highly productive students.  This research has  provided many deep insights into difficult, significant and challenging problems of speech perception. Specifically Allen and his students have identified the basic features of many plosive and fricative speech sounds. This has allowed them to manipulate the perception of speech with surgical precision. Allen is well-versed in cochlear modeling, auditory neurophysiology, speech perception, speech processing, psychophysics, audiology as well as musical, speech and middle ear acoustics, acoustic impedance and reflectance, analog and digital signal processing, and clinical audiology.  Allen has more than 20 US patents on hearing aids, signal processing and middle ear measurement diagnostics. He teaches courses in mathematical physics ( http://auditorymodels.web.engr.illinois.edu/index.php/Courses/ECE493-2013AdvEngMath ), speech processing ( http:// auditorymodels.web.engr.illinois.edu /index.php/Courses/ECE537-2014SpeechProcessing ), analog and digital signal processing, and clinical audiology, electroacoustics, transducer design ( http:// auditorymodels.web.engr.illinois.edu /index.php/Courses/ECE403-2013AudioEngineering ).  His special interest is speech perception, which brings together many of these fields in a relevant way.  Additionally Allen has co-taught ECE-545 (Advanced Physical Acoustics) ( https://courses.illinois.edu/schedule/2013/fall/ECE/545 ). This coming semester he has introduced a new math course for undergraduates \"ECE 298 JA - Concepts in Engineering Math\" ( http://www.ece.illinois.edu/academics/courses/profile/ECE298JA-120158 , http://auditorymodels.web.engr.illinois.edu/index.php/Courses/ECE298JA-F15 ). Since the early 1990's, Allen has been a visiting scientist in the Departments of Otolaryngology of Columbia University, City university of New York, and University of Calgary, and was an Osher Fellow at the Exploratorium Museum, San Francisco ( www.exploratorium.edu/ ). He has been very active in IEEE and the ASA, running both major conferences (IEEE-ICASSP 1985, New York) and many small workshops."
+  },
+  {
+    "name": "Juan Alvarez",
+    "title": "Teaching Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/alvarez",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "alvarez@illinois.edu",
+    "research_interests": [
+      "Applied probability",
+      "Mathematical modeling of polymers and biophysical systems; in particular:      \n- configurational and statistical properties of lattice models for polymers\n- steric stabilization and sensitized flocculation of colloidal dispersions\n- adsorption and localization of random copolymers\n- ion transport",
+      "AI usage",
+      "Concept maps",
+      "Response to Failure and Success in Engineering",
+      "Improving study skills in undergraduate students."
+    ],
+    "research_areas": [
+      "Communications"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Arijit  Banerjee",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/arijit",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "arijit@illinois.edu",
+    "research_interests": [
+      "Electromechanical Energy Conversion Systems",
+      "Power Electronics",
+      "Electrical Machines and Drives",
+      "Robotic Actuators",
+      "Electric Propulsion Systems",
+      "Renewable Energy"
+    ],
+    "research_areas": [
+      "Efficient energy management and conversion for lighting, communications, information technology, transportation, and appliances",
+      "Electric transportation",
+      "Electrical machines and drive systems",
+      "Power and Energy Systems",
+      "Power electronics",
+      "Robotics"
+    ],
+    "research_topics": [
+      "Electric transportation",
+      "Energy",
+      "Robotics",
+      "Smart grid and energy delivery",
+      "Solar and renewable technology",
+      "Storage and conversion"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Yuliy Baryshnikov",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/ymb",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "ymb@illinois.edu",
+    "research_interests": [
+      "Nonlinear dynamics and control",
+      "Applied topology",
+      "Stochastic processes"
+    ],
+    "research_areas": [
+      "Control",
+      "Decentralized and distributed control",
+      "Discrete-event, switched and hybrid systems",
+      "Random processes",
+      "Robotics and motion planning"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Cybersecurity and privacy",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Decision science",
+      "Healthcare and medical technologies",
+      "Network science and engineering",
+      "Neuro-engineering",
+      "Policy and economics",
+      "Quantum optics, cryptography, information, and computing",
+      "Robotics",
+      "Sensing systems",
+      "Socio-technical systems and networking",
+      "Speech, language, and audio processing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Can  Bayram",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/cbayram",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "cbayram@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Efficient energy management and conversion for lighting, communications, information technology, transportation, and appliances",
+      "Electromagnetics and Optics",
+      "Energy storage conversion, management, and control",
+      "Gallium nitride power semiconductors",
+      "Microcavity lasers and nanophotonics",
+      "Microelectromechanical systems (MEMS)",
+      "Microelectronic and photonic device modeling",
+      "Microelectronics and Photonics",
+      "Microwave devices and circuits",
+      "Microwave integrated circuits",
+      "Millimeter wave integrated circuits",
+      "Nano-electronics and single electronics",
+      "Nano-materials",
+      "Nano-photonics",
+      "Nanotechnology",
+      "Photonic crystals",
+      "Photonic integrated circuits (PICs)",
+      "Power and Energy Systems",
+      "Quantum nanostructures for electronics and photonics",
+      "Semiconductor electronic devices",
+      "Semiconductor lasers and photonic devices",
+      "Semiconductor materials",
+      "Sensors"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Charge particle physics and engineering",
+      "Electronics, Plasmonics, and Photonics",
+      "Energy",
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Photonics: optical engineering and systems",
+      "Quantum optics, cryptography, information, and computing",
+      "RF and microwave engineering",
+      "Semiconductor devices and manufacturing",
+      "Solar and renewable technology"
+    ],
+    "bio": "Dr. Can Bayram is a Professor and an Intel Alumni Endowed Faculty Scholar in the Department of Electrical and Computer Engineering and a resident faculty at the Nick Holonyak, Jr Micro and Nanotechnology Laboratory, University of Illinois at Urbana-Champaign, IL, USA. In all aspects of modern life, we utilize semiconductor technologies. From lighting to communication and computing to transportation, we rely on semiconductors for comfort, safety, and sustainability. Prof. Bayram understands, controls, and exploits semiconductor technologies and creates an innovative research and education platform considering the needs not only of the current generation, but also of the next. Dr. Bayram is the recipient of the International Union of Pure and Applied Physics Young Scientist Medal, the IEEE Nanotechnology Council Early Career Award, the IEEE Electron Devices Society Early Career Award, NSF CAREER & AFOSR Young Investigator Awards amongst many other (inter)national awards. He is an SPIE Fellow."
+  },
+  {
+    "name": "Mohamed Ali  Belabbas",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/belabbas",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "belabbas@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Nonlinear systems and control"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Bioelectronics and Bioinformatics",
+      "Cognitive computing",
+      "Computational science and engineering",
+      "Cyberphysical systems and internet of things",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Decision science",
+      "Machine learning",
+      "Network science and engineering",
+      "Neuro-engineering",
+      "Robotics",
+      "Sensing systems",
+      "Smart infrastructures"
+    ],
+    "bio": "http://publish.illinois.edu/belabbas/"
+  },
+  {
+    "name": "Jennifer Bernhard",
+    "title": "Unknown",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jbernhar",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jbernhar@illinois.edu",
+    "research_interests": [
+      "Multifunction Antennas and Antenna Systems",
+      "Wireless Sensor Systems, including the Internet of Things (IoT)",
+      "Antennas and Electromagnetics for Wireless Communication",
+      "Reconfigurable Active and Passive Antennas"
+    ],
+    "research_areas": [
+      "Antennas for communication and wireless sensing",
+      "Bioelectromagnetics",
+      "Electromagnetic theory",
+      "Electromagnetics and Optics",
+      "Electronic packaging",
+      "High-frequency circuits",
+      "Microwave devices and circuits",
+      "Remote Sensing",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Bioelectronics and Bioinformatics",
+      "Cyberinfrastructures",
+      "Cyberphysical systems and internet of things",
+      "Data/Information Science and Systems",
+      "Electronics, Plasmonics, and Photonics",
+      "Energy",
+      "Healthcare and medical technologies",
+      "Network science and engineering",
+      "RF and microwave engineering",
+      "Sensing systems",
+      "Smart infrastructures",
+      "Socio-technical systems and networking",
+      "Wearable and mobile computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Ujjal Kumar Bhowmik",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/ubhowmik",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "ubhowmik@illinois.edu",
+    "research_interests": [],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Simeon  Bogdanov",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/bogdanov",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "bogdanov@illinois.edu",
+    "research_interests": [
+      "Applications of machine learning",
+      "Integrated optoelectronics",
+      "Optically active solid-state spins",
+      "Superconducting materials and devices",
+      "Plasmonics and Metamaterials",
+      "Nonlinear optics and quantum transduction",
+      "High-speed quantum photonics"
+    ],
+    "research_areas": [
+      "Nano-photonics",
+      "Quantum nanostructures for electronics and photonics"
+    ],
+    "research_topics": [
+      "Photonics: optical engineering and systems",
+      "Quantum optics, cryptography, information, and computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Stephen  Boppart",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/boppart",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "boppart@illinois.edu",
+    "research_interests": [
+      "Nonlinear Optical Microscopy",
+      "Medical Device Engineering",
+      "Optical Diagnostics of Cancer",
+      "Medical Engineering",
+      "Image-Guided Surgery",
+      "Optical Coherence Tomography",
+      "Lasers in Medicine and Biology",
+      "Optical Biomedical Imaging",
+      "Neurophotonics",
+      "Primary Care Imaging (ear, eye, skin, oral)",
+      "Imaging Biofilms and Microbiomes"
+    ],
+    "research_areas": [
+      "Biomedical imaging",
+      "Biomedical Imaging, Bioengineering, and Acoustics",
+      "Biosensors and bioelectronics",
+      "Coherent optics/imaging",
+      "Electromagnetics and Optics",
+      "Lasers and optical physics",
+      "Nano-photonics",
+      "Nanotechnology",
+      "Ultrafast laser spectroscopy"
+    ],
+    "research_topics": [
+      "Bioelectronics and Bioinformatics",
+      "Computational science and engineering",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Decision science",
+      "Electronics, Plasmonics, and Photonics",
+      "Genomics",
+      "Healthcare and medical technologies",
+      "Imaging science and systems",
+      "Machine learning",
+      "Medical imaging",
+      "Nanomedicine and bio-nanotechnology",
+      "Neuro-engineering",
+      "Photonics: optical engineering and systems",
+      "Point-of-care diagnostics",
+      "Quantum optics, cryptography, information, and computing"
+    ],
+    "bio": "Stephen Boppart is a Professor and Grainger Distinguished Chair in Engineering at the University of Illinois Urbana-Champaign (UIUC) with appointments in the Departments of Electrical and Computer Engineering, Bioengineering, the Carle Illinois College of Medicine, and the Beckman Institute for Advanced Science and Technology.  His Biophotonics Imaging Laboratory is focused on developing novel optical biomedical diagnostic and imaging technologies and translating these into clinical applications.  Prof. Boppart received his Ph.D. in Medical and Electrical Engineering from MIT, his M.D. from Harvard Medical School, and specialty training in Internal Medicine.  He has published over 475 invited and contributed publications, delivered over 1000 invited and contributed presentations, and has over 55 patents related to optical biomedical imaging technology.  He has mentored over 200 interdisciplinary undergraduate, graduate, and post-graduate researchers.  He was recognized by MIT Technology Review magazine as one of the Top 100 Young Innovators for his development of medical technology, and with the Paul F. Forman Engineering Excellence Award from Optica for dedication and advancement in undergraduate research education.  He received the international Hans Sigrist Prize in the field of Diagnostic Laser Medicine, the IEEE Technical Achievement Award, and the SPIE Biophotonics Technology Innovator Award.  Prof. Boppart has co-founded four start-up companies to commercialize and disseminate his optical technologies for biomedical imaging and was recently elected a member of the National Academy of Inventors.  He is also a Fellow of AAAS, IEEE, OSA, SPIE, AIMBE, BMES, and IAMBE.  He established and served as Director of Imaging at Illinois, a university-wide program to integrate imaging science, technology, and applications across multiple modalities and fields, and is currently Director of the GSK Center for Optical Molecular Imaging, supported by an academic-clinical-industry partnership with GlaxoSmithKline.  In support of a national NIH Biomedical Technology Research Resource, Prof. Boppart is directing the recently awarded NIBIB P41 Center for Label-free Imaging and Multiscale Biophotonics (CLIMB).  Prof. Boppart has been a strong advocate for the integration of engineering, technology, and medicine to advance human health and our healthcare systems.  He played an active role in the initiation, visioning, launch, and growth of the new engineering-based Carle Illinois College of Medicine at the University of Illinois Urbana-Champaign, and served as Executive Associate Dean and Chief Diversity Officer.  Currently he is serving as the Director for the university's Interdisciplinary Health Sciences Institute, and as the Illinois Co-Chair of the Mayo Clinic & Illinois Alliance for Technology-Based Healthcare.  Through all these efforts he is recognized for developing new programs for research and education in technology-inspired health innovation."
+  },
+  {
+    "name": "Nikita  Borisov",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/nikita",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "nikita@illinois.edu",
+    "research_interests": [
+      "Fingerprinting of network traffic and endpoints",
+      "Privacy-preserving data sharing",
+      "Design and analysis of anonymous networks"
+    ],
+    "research_areas": [
+      "Communication networks",
+      "Computer networking",
+      "Computer security, privacy, and information trust",
+      "Cryptographic systems and protocols",
+      "Distributed and peer-to-peer systems",
+      "Operating systems",
+      "Watermarking and information forensics"
+    ],
+    "research_topics": [
+      "Cybersecurity and privacy",
+      "Distributed computing and storage systems",
+      "Sensing systems",
+      "Smart grid and energy delivery",
+      "Wearable and mobile computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Subhonmesh  Bose",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/boses",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "boses@illinois.edu",
+    "research_interests": [
+      "Transportation Electrification",
+      "Coordination of Distributed Energy Resources",
+      "Electricity Market Design with Renewables",
+      "Nonstationary Reinforcement Learning",
+      "Data-Driven Analysis and Control of Dynamical Systems"
+    ],
+    "research_areas": [
+      "Dynamics and stability of power systems",
+      "Energy system economics and public policy",
+      "Networked control systems",
+      "Operation and control of power systems",
+      "Stochastic systems and control"
+    ],
+    "research_topics": [
+      "AI Theory",
+      "Electric transportation"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Abrita Chakravarty",
+    "title": "Instructor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/abrita",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "abrita@illinois.edu",
+    "research_interests": [],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Varun  Chandrasekaran",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/varunc",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "varunc@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Computer security, privacy, and information trust"
+    ],
+    "research_topics": [
+      "AI Applications",
+      "Cybersecurity and privacy",
+      "Security, Trust, Verification"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Deming  Chen",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/dchen",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "dchen@illinois.edu",
+    "research_interests": [
+      "Hardware security",
+      "GPU optimization and GPU computing",
+      "IoT and data analytics",
+      "Hardware/software co-design for SoC",
+      "System-level and high-level synthesis",
+      "Cloud computing",
+      "AI, machine learning and hardware acceleration",
+      "Reconfigurable computing and FPGAs"
+    ],
+    "research_areas": [
+      "Algorithms and computational complexity",
+      "Computer aided design",
+      "Computer aided design of integrated circuits",
+      "Digital integrated circuits",
+      "Fault tolerance and reliability",
+      "Hardware verification and testing",
+      "Integrated circuit reliability",
+      "Logic design and VLSI",
+      "Nano-electronics and single electronics"
+    ],
+    "research_topics": [
+      "AI Applications",
+      "AI Systems",
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Bioelectronics and Bioinformatics",
+      "Cognitive computing",
+      "Computational science and engineering",
+      "Cyberinfrastructures",
+      "Cyberphysical systems and internet of things",
+      "Cybersecurity and privacy",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Distributed computing and storage systems",
+      "Energy",
+      "Genomics",
+      "Machine learning",
+      "Machine vision",
+      "Nanomedicine and bio-nanotechnology",
+      "Point-of-care diagnostics",
+      "Robotics",
+      "Smart grid and energy delivery",
+      "Smart infrastructures",
+      "Speech, language, and audio processing",
+      "Wearable and mobile computing"
+    ],
+    "bio": "Deming Chen is the Abel Bliss Professor in the Grainger College of Engineering at the University of Illinois Urbana-Champaign. His research interests include machine learning and AI, system-level design methodologies, hybrid cloud systems, reconfigurable and heterogeneous computing, and security and confidential computing. He has published more than 300 research papers, received 10 Best Paper Awards, 2 ACM/SIGDA TCFPGA Hall-of-Fame Paper Awards, 5 Best Poster Awards, and delivered more than 170 invited talks, including over 20 keynote and distinguished lectures. His research has generated substantial impact, with several open-source solutions adopted by industry (e.g., FCUDA, DNNBuilder, CSRNet, SkyNet, ScaleHLS, Medusa). He also won various awards, including ACM SIGDA Distinguished Service Award, First Place Winner Award for International Hardware/System Design Contest in 2017 and 2019, NSF SBIR Awards, Google Faculty Award, IBM Faculty Award, Arnold O. Beckman Research Award, and NSF Career Award, etc. Dr. Chen is an ACM Fellow, an IEEE Fellow, an ACM Distinguished Speaker, and previously served as Editor-in-Chief of ACM Transactions on Reconfigurable Technology and Systems (TRETS). Under his leadership, the impact factor of ACM TRETS has increased by 3.8 times. He serves as the Illinois Director of the IBM-Illinois Discovery Accelerator Institute and the Director of the AMD Center of Excellence. He is the founding co-chair of the International Conference on LLM-Aided-Design (ICLAD). Additionally, he has been involved in several startup companies, including AutoESL and Inspirit IoT. He received his Ph.D. in Computer Science from UCLA in 2005."
+  },
+  {
+    "name": "Xu  Chen",
+    "title": "Teaching Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/xuchen1",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "xuchen1@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Computational electromagnetics",
+      "Computer aided design of integrated circuits",
+      "Electronic packaging",
+      "Machine learning and pattern recognition",
+      "Random processes"
+    ],
+    "research_topics": [
+      "Computational science and engineering",
+      "Data science and analytics",
+      "Machine learning"
+    ],
+    "bio": "Xu Chen is a Teaching Associate Professor in the Department of Electrical and Computer Engineering at the University of Illinois Urbana-Champaign. He received his Ph.D. in Electrical and Computer Engineering from Illinois in 2018. Before returning to academia, he spent eight years in industry, working with IBM Systems Group and Apple Inc., where he gained extensive experience in electronic systems design and validation. His research and teaching bridge academia and industry, focusing on uncertainty quantification and scientific machine learning for electronic design automation, with particular emphasis on modeling, optimization, and heterogeneous integration in microelectronic packaging and circuits. Prof. Chen serves as an Associate Editor of the IEEE Transactions on Components, Packaging, and Manufacturing Technology and as the General Chair of the 2026 IEEE Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS). He is a faculty researcher with the Center for Advanced Electronics through Machine Learning (CAEML), where his work advances the integration of machine learning into electronic design automation and system modeling. Prof. Chen and his students have been recognized with the IEEE EDAPS Best Symposium Paper Award and the IEEE MTT-S NEMO Best Student Paper Award. He has authored or co-authored more than 30 peer-reviewed journal and conference papers, advised three M.S. students - now active in the hardware design industry - and currently mentors two Ph.D. students. In addition, he has served on multiple Ph.D. dissertation and qualifying examination committees. He is a Senior Member of IEEE and a Member of SIAM. Prof. Chen teaches a wide range of undergraduate and graduate courses across the electrical engineering curriculum, including engineering electromagnetics, probability, electronic circuits, microwave engineering, and analog signal processing. He is a dedicated and effective educator who has been recognized multiple times on the University of Illinois's List of Teachers Ranked as Excellent by Their Students. Prof. Chen has mentored more than ten undergraduate researchers, many of whom have gone on to pursue graduate studies at top-tier institutions. Through his teaching and mentorship, he has fostered a strong culture of intellectual curiosity and practical problem-solving in both classroom and research settings."
+  },
+  {
+    "name": "Yun-Sheng  Chen",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/yunsheng",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "yunsheng@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Biomedical imaging",
+      "Nanotechnology"
+    ],
+    "research_topics": [
+      "Electronics, Plasmonics, and Photonics",
+      "Medical imaging",
+      "Nanomedicine and bio-nanotechnology"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Yuting Wu Chen",
+    "title": "Teaching Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/ywchen",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "ywchen@illinois.edu",
+    "research_interests": [],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Zuofu  Cheng",
+    "title": "Teaching Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/zcheng1",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "zcheng1@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Acoustics",
+      "Computer architecture"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Eric Chitambar",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/echitamb",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "echitamb@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Cryptographic systems and protocols",
+      "Information theory",
+      "Lasers and optical physics"
+    ],
+    "research_topics": [
+      "Quantum optics, cryptography, information, and computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Hyungsoo  Choi",
+    "title": "Research Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/hyungsoo",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "hyungsoo@illinois.edu",
+    "research_interests": [
+      "Targeted Delivery and Controlled Release of Therapeutics/Cells Mediated by Nano- and Micro- Spheres and Capsules\n\t--Contrast Agents for Medical Imaging\n        --Cell Therapy via Microencapsulation",
+      "Nanostructured Materials Synthesis\n\t--Sensors/Detectors and Plasmonic Metamaterials\n\t--Metal Oxide Topological Insulators\n        --Hybrid Perovskite Solar Cells",
+      "Thin film and nanoparticle fabrication:\nThin films, nanostructured materials via sol-gel processing and flow-limited field-injection electrostatic spraying (FFESS) technology."
+    ],
+    "research_areas": [
+      "Biomedical imaging",
+      "Bionanotechnology",
+      "Nano-materials",
+      "Semiconductor materials",
+      "Sensors"
+    ],
+    "research_topics": [
+      "Charge particle physics and engineering",
+      "Nanomedicine and bio-nanotechnology",
+      "Semiconductor devices and manufacturing",
+      "Solar and renewable technology"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Kent D. Choquette",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/choquett",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "choquett@illinois.edu",
+    "research_interests": [
+      "Vertical cavity surface emitting lasers (VCSELs)",
+      "PIN and avalanche photodetectors",
+      "Photonic crystals",
+      "Heterogenous integration technologies",
+      "High bandwidth communication systems",
+      "Optical sensing applications including medical and environmental sensing"
+    ],
+    "research_areas": [
+      "Coherent optics/imaging",
+      "Communications",
+      "Computational electromagnetics",
+      "Electromagnetics and Optics",
+      "Lasers and optical physics",
+      "Microcavity lasers and nanophotonics",
+      "Microelectromechanical systems (MEMS)",
+      "Microelectronic and photonic device modeling",
+      "Microelectronics and Photonics",
+      "Modeling and simulation of laser systems",
+      "Nano-electro mechanical systems (NEMS)",
+      "Nano-materials",
+      "Nano-photonics",
+      "Nanotechnology",
+      "Optical communications",
+      "Photonic crystals",
+      "Photonic integrated circuits (PICs)",
+      "Quantum nanostructures for electronics and photonics",
+      "Radar and LIDAR",
+      "Remote Sensing",
+      "Semiconductor electronic devices",
+      "Semiconductor lasers and photonic devices",
+      "Semiconductor materials",
+      "Sensors",
+      "Sprintronics"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Electronics, Plasmonics, and Photonics",
+      "Energy",
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Photonics: optical engineering and systems",
+      "Quantum optics, cryptography, information, and computing",
+      "Semiconductor devices and manufacturing",
+      "Solar and renewable technology"
+    ],
+    "bio": "Kent D. Choquette received B.S. degrees in Engineering Physics and Applied Mathematics from the University of Colorado-Boulder and the M.S. and Ph.D. degrees in Materials Science from the University of Wisconsin-Madison.  From 1990 to 1992 he held a postdoctoral appointment at AT&T Bell Laboratories, Murray Hill, NJ. He then joined Sandia National Laboratories in Albuquerque, NM, and from 1993 to 2000 was a Principal Member of Technical Staff.  While at Sandia in 1994 he invented and demonstrated the first monolithic selectively oxidized vertical cavity surface emitting laser (VCSEL) which today is referred to as the oxide-confined VCSEL, which is manufactured around the world for data communication and sensing applications. Since 2000 he is a Professor in the Electrical and Computer Engineering Department at the University of Illinois and leads the Photonic Device Research Group focused on the design, fabrication, characterization, and applications of vertical cavity surface-emitting lasers (VCSELs), photonic crystal light sources, nanofabrication technologies, and hybrid integration techniques for photonic devices. Dr. Choquette has authored over 300 technical publications and three book chapters, and has presented numerous invited talks and tutorials.  He is past Associate Editor of the Journal of Lightwave Technology, Associate Editor of IEEE Journal of Quantum Electronics, IEEE Photonic Technology Letters, and as a Guest Editor of IEEE Journal of Selected Topics in Quantum Electronics. He was awarded the 2008 IEEE/Photonics Society Engineering Achievement Award, the 2012 Nick Holonyak, Jr. Award from the Optical Society of America, the 2013 Distinguished Service Award from the IEEE Photonics Society, and the 2016 Technology Achievement Award from SPIE. He has served as the IEEE Photonics Society Vice President of Conferences, Vice President of Technical Affairs, President Elect, 2016-2017 as the President, and past President. He is a Fellow of the IEEE, a Fellow of Optica, a Fellow of SPIE, and a Fellow of the American Association for the Advancement of Science."
+  },
+  {
+    "name": "Rongming  Chu",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/rchu",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "rchu@illinois.edu",
+    "research_interests": [],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Brian T. Cunningham",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/bcunning",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "bcunning@illinois.edu",
+    "research_interests": [
+      "Sensor design and instrumentation",
+      "Finite Difference Time Domain Analysis",
+      "Nanofabrication",
+      "Photonic Crystals",
+      "Optical Biosensors"
+    ],
+    "research_areas": [
+      "Biosensors and bioelectronics",
+      "Electromagnetics and Optics",
+      "Plasma devices and plasma science",
+      "Signal detection and estimation"
+    ],
+    "research_topics": [
+      "Bioelectronics and Bioinformatics",
+      "Electronics, Plasmonics, and Photonics",
+      "Healthcare and medical technologies",
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Nanomedicine and bio-nanotechnology",
+      "Photonics: optical engineering and systems",
+      "Point-of-care diagnostics",
+      "Sensing systems"
+    ],
+    "bio": null
+  },
+  {
+    "name": "John Dallesasse",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jdallesa",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jdallesa@illinois.edu",
+    "research_interests": [
+      "Compound Semiconductor Materials & Devices",
+      "Heterogeneous Integration and Novel Processing Technologies",
+      "Transistor Lasers and Light Emitting Transistors",
+      "Compound Semiconductor Materials",
+      "Photonic Integration & Silicon Photonics"
+    ],
+    "research_areas": [
+      "Gallium nitride power semiconductors",
+      "Lasers and optical physics",
+      "Microcavity lasers and nanophotonics",
+      "Microelectronic and photonic device modeling",
+      "Microelectronics and Photonics",
+      "Microwave devices and circuits",
+      "Microwave integrated circuits",
+      "Millimeter wave integrated circuits",
+      "Nano-materials",
+      "Nano-photonics",
+      "Nanotechnology",
+      "Optical communications",
+      "Photonic crystals",
+      "Photonic integrated circuits (PICs)",
+      "Quantum nanostructures for electronics and photonics",
+      "Semiconductor electronic devices",
+      "Semiconductor lasers and photonic devices",
+      "Semiconductor materials",
+      "Sensors"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Electronics, Plasmonics, and Photonics",
+      "Photonics: optical engineering and systems",
+      "Semiconductor devices and manufacturing"
+    ],
+    "bio": "Prof. Dallesasse has over 20 years of experience in the Optoelectronics Industry, and has held a wide range of positions in technology development and management, including Vice President of MicroLink Devices and Senior Director of Engineering and Technology for Emcore’s Fiber Optics Division.  Most recently, he was the Chief Technology Officer, Vice President, and co-founder of Skorpios Technologies, Inc., a venture-capital funded startup that is developing and commercializing silicon photonic ICs based upon a wafer-scale process for selective integration of III-V materials on SOI substrates.  His technical contributions include, with Nick Holonyak, Jr., the discovery of III V Oxidation, which has become an important process technology in the fabrication of high-speed VCSELs.  Prof. Dallesasse has also been an active participant in the IEEE 802.3 standards effort, and was an important contributor in the definition of the 10GBASE-LX4 port type for use with installed “legacy” multimode fiber."
+  },
+  {
+    "name": "Minh N. Do",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/minhdo",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "minhdo@illinois.edu",
+    "research_interests": [
+      "Smart health",
+      "Data science",
+      "Computational imaging",
+      "Signal processing"
+    ],
+    "research_areas": [
+      "Biomedical Imaging, Bioengineering, and Acoustics",
+      "Communications",
+      "Computed imaging systems",
+      "Image, video, and multimedia processing and compression",
+      "Machine learning and pattern recognition",
+      "Robotics, vision, and artificial intelligence",
+      "Signal Processing"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Bioelectronics and Bioinformatics",
+      "Cognitive computing",
+      "Computational science and engineering",
+      "Cyberphysical systems and internet of things",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Genomics",
+      "Healthcare and medical technologies",
+      "Imaging science and systems",
+      "Machine learning",
+      "Machine vision",
+      "Medical imaging",
+      "Point-of-care diagnostics",
+      "Robotics",
+      "Sensing systems",
+      "Vision, Audio",
+      "Wearable and mobile computing"
+    ],
+    "bio": "Minh N. Do received the B.Eng. degree in Computer Engineering from the University of Canberra, Australia, in 1997, and the Dr.Sci. degree in Communication Systems from the Swiss Federal Institute of Technology Lausanne (EPFL) in 2001.  Since 2002, he has been on the faculty at the University of Illinois at Urbana-Champaign, where he is currently the Thomas and Margaret Huang Endowed Professor in Signal Processing & Data Science in the Department of Electrical and Computer Engineering, and holds affiliate appointments with the Coordinated Science Laboratory, the Beckman Institute for Advanced Science and Technology, the Department of Bioengineering, and the Department of Computer Science.  He received a Silver Medal from the 32nd International Mathematical Olympiad in 1991, University Medal from the University of Canberra in 1997, Doctorate Award from the EPFL in 2001, CAREER Award from the National Science Foundation in 2003,  Xerox Award for Faculty Research from UIUC in 2007, and Young Author Best Paper Award from IEEE in 2008.  He was an Associate Editor of the IEEE Transactions on Image Processing, and a member of several IEEE Technical Committees on Signal Processing.  He was elected as an IEEE Fellow in 2014 for his contributions to image representation and computational imaging.  He has contributed to several tech-transfer efforts, including as a co-founder and CTO of Personify and Chief Scientist of Misfit.  During 2020-2021 he served as the Vice-Provost, and then continues as Honorary Vice-Provost, for VinUniversity, the first private, not-for-profit Vietnamese university established based on international standards. He also serves as the Director of the joint VinUni-Illinois Smart Health Center."
+  },
+  {
+    "name": "Alejandro  Dominguez-Garcia",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/aledan",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "aledan@illinois.edu",
+    "research_interests": [
+      "Microgrids",
+      "Grid Data Analytics",
+      "Reliability Analysis"
+    ],
+    "research_areas": [
+      "Power and Energy Systems"
+    ],
+    "research_topics": [
+      "Cyberinfrastructures",
+      "Decision science",
+      "Distributed computing and storage systems",
+      "Energy",
+      "Network science and engineering",
+      "Smart grid and energy delivery",
+      "Smart infrastructures",
+      "Solar and renewable technology"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Peter D. Dragic",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/p-dragic",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "p-dragic@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Coherent optics/imaging",
+      "Lasers and optical physics",
+      "Modeling and simulation of laser systems",
+      "Nano-materials",
+      "Nano-photonics",
+      "Optical communications",
+      "Photonic crystals",
+      "Photonic integrated circuits (PICs)",
+      "Radar and LIDAR",
+      "Radio and optical wave propagation",
+      "Remote Sensing",
+      "Semiconductor lasers and photonic devices"
+    ],
+    "research_topics": [
+      "Electronics, Plasmonics, and Photonics",
+      "Photonics: optical engineering and systems",
+      "Sensing systems"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Katie Driggs-Campbell",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/krdc",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "krdc@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Robotics",
+      "Robotics and motion planning",
+      "Robotics, vision, and artificial intelligence"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "Autonomous vehicular technology, UAVs",
+      "Human computer interactions",
+      "Machine learning",
+      "Robotics, Control"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Rainer Engelken",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/engelken",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "engelken@illinois.edu",
+    "research_interests": [
+      "Neural Data Analysis",
+      "Dynamical Systems Theory",
+      "Machine Learning and Artificial Intelligence",
+      "Computational Neuroscience",
+      "Theoretical Neuroscience"
+    ],
+    "research_areas": [
+      "Information theory",
+      "Machine learning",
+      "Nonlinear systems and control"
+    ],
+    "research_topics": [
+      "AI Theory",
+      "Machine learning",
+      "Neuroscience, Biology"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Kejie  Fang",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/kfang3",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "kfang3@illinois.edu",
+    "research_interests": [
+      "Quantum photonics",
+      "Nonlinear photonics",
+      "Optomechanics",
+      "Nanophotonics"
+    ],
+    "research_areas": [
+      "Microcavity lasers and nanophotonics",
+      "Microelectromechanical systems (MEMS)",
+      "Microelectronics and Photonics",
+      "Nano-electro mechanical systems (NEMS)",
+      "Nano-photonics",
+      "Nanotechnology",
+      "Photonic integrated circuits (PICs)",
+      "Semiconductor lasers and photonic devices",
+      "Sensors"
+    ],
+    "research_topics": [
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Quantum optics, cryptography, information, and computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Arne Fliflet",
+    "title": "Lecturer",
+    "url": "https://ece.illinois.edu/about/directory/faculty/afliflet",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "afliflet@illinois.edu",
+    "research_interests": [
+      "Radar investigation of clouds",
+      "Microwave processing of materials",
+      "Terahertz gyrotron oscillators and amplifiers",
+      "High power vacuum electronics"
+    ],
+    "research_areas": [
+      "Atmospheric and ionospheric measurements",
+      "Computational electromagnetics",
+      "Lasers and optical physics",
+      "Microwave devices and circuits",
+      "Modeling and simulation of laser systems",
+      "Radar and LIDAR"
+    ],
+    "research_topics": [
+      "Charge particle physics and engineering",
+      "RF and microwave engineering"
+    ],
+    "bio": "Arne W. Fliflet received the B.Sc. degree from Duke University, Durham, NC, in 1970, and the Ph.D. degree from the University of Virginia, Charlotte, VA, in 1975, both in physics. His dissertation was on the application of many body perturbation theory to atomic photoionization. As a Research Fellow at Caltech from 1975 to 1979, he developed theoretical approaches to low-energy electron-molecule scattering.  In 1979 he joined a small consulting firm, B-K Dynamics, Inc., in Rockville, MD. At B-K Dynamics, he was involved with some of the first gyrotron research conducted in the United States, including the development of theoretical models and computer codes used in gyrotron design. In 1982, he joined the Naval Research Laboratory (NRL) as a Research Physicist in the Plasma Physics Division. At NRL he conducted theoretical and experimental research on gyrotrons, related high power coherent millimeter-wave radiation sources, and gyrotron applications. For many years he served as the head of the Particle and Radiation Beam Generation Section. His areas of research included: gyrotrons for tokamak plasma heating, relativistic gyrotrons, cyclotron auto-resonance masers, quasi-optical gyrotrons, magnicons, near-terahertz, higher-harmonic gyrotrons, microwave processing of materials, and millimeter-wave cloud radars.  In 2014 he joined the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign where he serves as a Lecturer. He has authored or coauthored over 100 papers and holds seven patents. Dr. Fliflet is a Fellow of the American Physical Society and a Senior Member and Life Member of IEEE."
+  },
+  {
+    "name": "Chet Gardner",
+    "title": "Research Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/cgardner",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "cgardner@illinois.edu",
+    "research_interests": [
+      "Optical Communication, Laser Altimetry, Laser Remote Sensing and Ranging, Laser Guide Stars and Adaptive Optics"
+    ],
+    "research_areas": [
+      "Lasers and optical physics",
+      "Optical communications",
+      "Remote Sensing"
+    ],
+    "research_topics": [
+      "Data science and analytics",
+      "Imaging science and systems",
+      "Photonics: optical engineering and systems",
+      "Sensing systems"
+    ],
+    "bio": "Dr. Chester S. Gardner has served the University of Illinois in a variety of academic and senior administrative roles since joining the engineering faculty of the Urbana-Champaign campus in 1973. Most recently, he served as Special Assistant to President B. Joseph White and Chief Executive of the University of Illinois Global Campus, a new entity established in 2007 by the Board of Trustees to develop and deliver Internet-based degree, certificate, and professional development programs to nontraditional audiences worldwide. Previously, he had served for seven years (1999-2006) as Vice President for Academic Affairs, the chief academic and budget officer for the University. In that role, he advised the President on and was responsible for capital and operating budget development for the three residential campuses (Chicago, Springfield, Urbana-Champaign), priority setting for resource allocations, matters of educational policy, and academic program and personnel actions. Dr. Gardner also established the office of, and served as, the University’s first Vice President for Economic Development and Corporate Relations (2000-2001). He was responsible for the University’s economic development program, including research parks and intellectual property offices at the Chicago and Urbana-Champaign campuses. He led the establishment of the University’s start-up company services and venture capital organization, IllinoisVENTURES, LLC, served as the first chair of its Board of Managers, and helped establish Fund VIII, an early stage venture capital fund being managed by CID Equity Partners in Indianapolis, IN. Dr. Gardner has also served as Vice Chancellor for Research, Dean of the Graduate College, Acting Dean of Engineering, and Associate Dean and Director of the Engineering Experiment Station, all at the Urbana-Champaign campus. Dr. Gardner received his B.S. degree in electrical engineering from Michigan State University in 1969, and the M.S. and Ph.D. degrees in electrical engineering from Northwestern University in 1971 and 1973, respectively. From 1969 through 1971 he was a member of the Technical Staff at Bell Telephone Laboratories, Naperville, Illinois. Dr. Gardner’s scientific and engineering research has concentrated on optical communications, adaptive imaging, and laser remote sensing (lidar). This work has included the development of novel new techniques and instruments, as well as important scientific studies of atmospheric dynamics, chemistry, and climate change. Dr. Gardner was a member of the NASA Science Team that designed the Lidar-In-Space Technology Experiment, which flew successfully as the prime payload aboard the Space Shuttle Discovery in September 1994 (STS-64, Bulletin of the American Meteorological Society, 1993). He and his students were the first to create an artificial laser guide star in the upper atmosphere for adaptive imaging applications in astronomy (Nature, 1987), and they made the first measurements of temperatures and mesospheric clouds in the upper atmosphere over the North and South Poles, using an airborne Fe lidar (Geophysical Research Letters, 2001). Dr. Gardner is a Fellow of the Institute of Electrical and Electronic Engineers, the Optical Society of America, and the American Association for the Advancement of Science."
+  },
+  {
+    "name": "Matthew  Gilbert",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/matthewg",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "matthewg@illinois.edu",
+    "research_interests": [
+      "Topological Insulators and Phenomena",
+      "Quantum Computing",
+      "Strongly Correlated Systems",
+      "Quantum Transport Theory"
+    ],
+    "research_areas": [
+      "Computational nanotechnology",
+      "Device modeling",
+      "Nano-materials",
+      "Nano-photonics",
+      "Nanotechnology",
+      "Quantum nanostructures for electronics and photonics",
+      "Semiconductor electronic devices",
+      "Sprintronics"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Charge particle physics and engineering",
+      "Electronics, Plasmonics, and Photonics",
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Photonics: optical engineering and systems",
+      "Quantum optics, cryptography, information, and computing",
+      "RF and microwave engineering",
+      "Semiconductor devices and manufacturing",
+      "Storage and conversion"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Lynford L. Goddard",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/lgoddard",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "lgoddard@illinois.edu",
+    "research_interests": [
+      "Semiconductor Band Structure Modeling",
+      "Applications of Machine Learning",
+      "Photonic devices and systems",
+      "Metrology and Instrumentation",
+      "Microscopy for Material Science",
+      "Computational Electromagnetics for Photonics",
+      "Semiconductor Lasers, Modulators, and Detectors",
+      "Low Loss Semiconductor/Dielectric Waveguides and Interconnects",
+      "Nanofabrication and Novel Semiconductor Processing",
+      "Volumetric Photonic Integrated Circuits"
+    ],
+    "research_areas": [
+      "Coherent optics/imaging",
+      "Computational electromagnetics",
+      "Device modeling",
+      "Electromagnetics and Optics",
+      "Lasers and optical physics",
+      "Microcavity lasers and nanophotonics",
+      "Microelectromechanical systems (MEMS)",
+      "Microelectronic and photonic device modeling",
+      "Microelectronics and Photonics",
+      "Modeling and simulation of laser systems",
+      "Nano-photonics",
+      "Nanotechnology",
+      "Optical communications",
+      "Photonic integrated circuits (PICs)",
+      "Semiconductor electronic devices",
+      "Semiconductor lasers and photonic devices",
+      "Semiconductor materials",
+      "Sensors"
+    ],
+    "research_topics": [
+      "Electronics, Plasmonics, and Photonics",
+      "Imaging science and systems",
+      "Machine learning",
+      "Machine vision",
+      "Medical imaging",
+      "Photonics: optical engineering and systems",
+      "Semiconductor devices and manufacturing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Songbin  Gong",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/songbin",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "songbin@illinois.edu",
+    "research_interests": [
+      "RF and microwave photonics",
+      "Antennas for communication and wireless sensing",
+      "Microwave acoustics",
+      "Millimeter wave integrated circuits",
+      "Microwave devices and circuits",
+      "Reconfigurable RF and microwave systems",
+      "Micro-Electro-Mechanical Systems"
+    ],
+    "research_areas": [
+      "Acoustics",
+      "Circuits",
+      "Electromagnetic theory",
+      "Electromagnetics and Optics",
+      "Microelectromechanical systems (MEMS)",
+      "Microwave devices and circuits",
+      "Millimeter wave integrated circuits",
+      "Nano-electro mechanical systems (NEMS)",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Photonics: optical engineering and systems",
+      "RF and microwave engineering"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Viktor  Gruev",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/vgruev",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "vgruev@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Analog integrated circuits",
+      "Biosensors and bioelectronics",
+      "Circuits"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Electronics, Plasmonics, and Photonics",
+      "Healthcare and medical technologies",
+      "Human computer interactions",
+      "Machine vision",
+      "Medical imaging",
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Nanomedicine and bio-nanotechnology",
+      "Photonics: optical engineering and systems",
+      "Point-of-care diagnostics",
+      "Sensing systems"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Saurabh  Gupta",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/saurabhg",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "saurabhg@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Robotics, vision, and artificial intelligence"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Robotics, Control",
+      "Vision, Audio"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Bruce  Hajek",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/b-hajek",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "b-hajek@illinois.edu",
+    "research_interests": [
+      "Mathematical biology",
+      "Game theory and mechanism design",
+      "Optimization",
+      "Wireless communication",
+      "Stochastic analysis",
+      "Communication networks"
+    ],
+    "research_areas": [
+      "Communication networks",
+      "Communications",
+      "Control",
+      "Dynamic games and decision theory",
+      "Information theory",
+      "Networking and distributed computing",
+      "Random processes",
+      "Signal Processing",
+      "Stochastic systems and control",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Decision science",
+      "Game theory",
+      "Machine learning",
+      "Network science and engineering"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Pavan Kumar  Hanumolu",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/hanumolu",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "hanumolu@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Circuits"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Computational science and engineering",
+      "Data/Information Science and Systems",
+      "Electronics, Plasmonics, and Photonics",
+      "Energy",
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Photonics: optical engineering and systems",
+      "RF and microwave engineering",
+      "Sensing systems",
+      "Storage and conversion",
+      "Wearable and mobile computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Kiruba Sivasubramaniam Haran",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/kharan",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "kharan@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Electric transportation",
+      "Electrical machines and drive systems",
+      "Power and Energy Systems"
+    ],
+    "research_topics": [],
+    "bio": "Kiruba Haran is the Grainger Endowed Director's Chair in Electric Machinery and Electromechanics in the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign.Â Dr. Haran moved to Illinois after spending thirteen years at GE Research working on electrical machines for applications ranging from power generation to aviation. At Illinois, his work has focused on high specific power machines for electrified transportation and renewable energy. He is also Founder and CTO of Hinetics, Inc., based in the Research Park at the University of Illinois. Dr. Haran is a Fellow of the IEEE and the Royal Aeronautical Society, and a member of the National Academy of Engineering."
+  },
+  {
+    "name": "Mark Hasegawa-Johnson",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jhasegaw",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jhasegaw@illinois.edu",
+    "research_interests": [
+      "Acoustic phonetics, Audio signal processing and speech recognition, Speech and auditory physiology."
+    ],
+    "research_areas": [
+      "Acoustics",
+      "Adaptive signal processing",
+      "Biomedical imaging",
+      "Computer vision and pattern recognition",
+      "Image, video, and multimedia processing and compression",
+      "Machine learning",
+      "Machine learning and pattern recognition",
+      "Natural language processing",
+      "Random processes",
+      "Robotics and motion planning",
+      "Signal detection and estimation",
+      "Signal Processing",
+      "Speech recognition and processing"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "NLP, LLM",
+      "Vision, Audio"
+    ],
+    "bio": "Mark Hasegawa-Johnson has been on the faculty at the University of Illinois since 1999, where he is currently a Professor of Electrical and Computer Engineering. He received his Ph.D. in 1996 at MIT, with a thesis titled \"Formant and Burst Spectral Measures with Quantitative Error Models for Speech Sound Classification,\" after which he was a post-doc at UCLA from 1996-1999. Prof. Hasegawa-Johnson is a Fellow of the Acoustical Society of America (2011, for contributions to vocal tract and speech modeling), a Fellow of the IEEE (2020, for contributions to speech processing of under-resourced languages), and a Fellow of the International Speech Communication Association (for contributions to knowledge-constrained signal generation). He is currently Editor-in-Chief of the IEEE Transactions on Audio, Speech and Language, and a member of the ISCA Diversity Committee.  He has published more than 450 peer-reviewed journal articles, patents and conference papers in the general area of automatic speech analysis, including machine learning models of articulatory and acoustic phonetics, prosody, dysarthria, non-speech acoustic events, audio source separation, and under-resourced languages."
+  },
+  {
+    "name": "Wei  He",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/weihe16",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "weihe16@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Nanotechnology",
+      "Semiconductor electronic devices",
+      "Semiconductor materials"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Semiconductor devices and manufacturing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Philip  Hillmer",
+    "title": "Lecturer",
+    "url": "https://ece.illinois.edu/about/directory/faculty/hillmer",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "hillmer@illinois.edu",
+    "research_interests": [
+      "Philosophical and Applied Ethics"
+    ],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Bin  Hu",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/binhu7",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "binhu7@illinois.edu",
+    "research_interests": [
+      "Machine Learning",
+      "Control"
+    ],
+    "research_areas": [
+      "Control",
+      "Machine learning"
+    ],
+    "research_topics": [
+      "AI Applications",
+      "Artificial Intelligence and Autonomous Systems",
+      "Data/Information Science and Systems",
+      "NLP, LLM"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Yih-Chun  Hu",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/yihchun",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "yihchun@illinois.edu",
+    "research_interests": [
+      "Vehicular Networks",
+      "Wireless Networks",
+      "Privacy in Wireless Networks",
+      "Network Security"
+    ],
+    "research_areas": [
+      "Communication networks",
+      "Communications",
+      "Computer networking",
+      "Computer security, privacy, and information trust",
+      "Cryptographic systems and protocols",
+      "Networking and distributed computing",
+      "Operating systems",
+      "System modeling and measurement",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Bioelectronics and Bioinformatics",
+      "Cyberinfrastructures",
+      "Cyberphysical systems and internet of things",
+      "Cybersecurity and privacy",
+      "Data/Information Science and Systems",
+      "Distributed computing and storage systems",
+      "Electric transportation",
+      "Energy",
+      "Game theory",
+      "Healthcare and medical technologies",
+      "Point-of-care diagnostics",
+      "Policy and economics",
+      "Smart grid and energy delivery",
+      "Smart infrastructures",
+      "Socio-technical systems and networking",
+      "Wearable and mobile computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Jian  Huang",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jianh",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jianh@illinois.edu",
+    "research_interests": [
+      "AI Infrastructure",
+      "Computer Systems",
+      "Computer Architecture",
+      "Memory and Storage Systems",
+      "Distributed Systems"
+    ],
+    "research_areas": [
+      "Cloud computing",
+      "Computer architecture",
+      "Computer security, privacy, and information trust",
+      "Databases",
+      "Distributed and peer-to-peer systems",
+      "Embedded, real-time, and hybrid systems",
+      "Hardware systems",
+      "Machine learning",
+      "Operating systems",
+      "Parallel processing",
+      "Programming languages",
+      "Reliable and secure systems",
+      "Software systems",
+      "System design for reliability"
+    ],
+    "research_topics": [
+      "AI Applications",
+      "AI Systems",
+      "Artificial Intelligence and Autonomous Systems",
+      "Cognitive computing",
+      "Computational science and engineering",
+      "Cyberphysical systems and internet of things",
+      "Cybersecurity and privacy",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Distributed computing and storage systems",
+      "Human computer interactions",
+      "Machine learning",
+      "Machine vision",
+      "Robotics",
+      "Smart infrastructures",
+      "Speech, language, and audio processing",
+      "Wearable and mobile computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Raluca Ilie",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/rilie",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "rilie@illinois.edu",
+    "research_interests": [
+      "Development of immersive technologies for education and training",
+      "Kinetic theory and modeling",
+      "Multi-physics, large-scale simulations of plasma transport and dynamics",
+      "Developing theoretical and predictive models of the space environment"
+    ],
+    "research_areas": [
+      "Electromagnetics and Optics",
+      "Remote Sensing"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Ravishankar K. Iyer",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/rkiyer",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "rkiyer@illinois.edu",
+    "research_interests": [
+      "Reliable and secure networks and systems, Measurement and modeling, dependability and security validation and benchmarking, data analytics, computing for genomics research, machine learning, artificial intelligence, computer systems, measurement driven analytics and machine learning, AI and health, trustworthiness of AI systems and algorithms."
+    ],
+    "research_areas": [
+      "Biomedical Imaging, Bioengineering, and Acoustics",
+      "Cloud computing",
+      "Machine learning and pattern recognition",
+      "Networking and distributed computing",
+      "Power and Energy Systems",
+      "Reliable and secure systems",
+      "System modeling and measurement"
+    ],
+    "research_topics": [
+      "Autonomous vehicular technology, UAVs",
+      "Genomics",
+      "Healthcare and medical technologies",
+      "Machine learning",
+      "Neuro-engineering"
+    ],
+    "bio": "Ravishankar K. Iyer is George and Ann Fisher Distinguished Professor of Engineering at the University of Illinois at Urbana-Champaign. He holds joint appointments in the Departments of Electrical and Computer Engineering and Computer Science, in the Coordinated Science Laboratory (CSL), the National Center for Supercomputing Applications, the Carle Illinois College of Medicine, and the Carl R. Woese Institute for Genomic Biology. He is also faculty Research Affiliate at the Mayo Clinic, and Yeoh Ghin Seng Distinguished Visiting Professor of the National University Health System, Singapore. Professor Iyer leads the DEPEND Group at CSL, with a multidisciplinary focus on systems and software that combine deep measurement driven analytics and machine learning with applications in two important domains: i) trust (that spans resilience and the security of critical infrastructures) and ii) health (that spans computational genomics and health analytics focused on personalized medicine). The Depend Group has developed a rich AI analytics framework that has been deployed on real-world applications in collaborations with industry, health providers, and government agencies including NSF, NIH, and DoD. Iyer directs the Illinois/Mayo NSF Center for Computational Biotechnology and Genomic Medicine (CCBGM). Professor Iyer is a Fellow of the American Association for the Advancement of Science (AAAS), the Institute of Electrical and Electronics Engineers (IEEE), and the Association for Computing Machinery (ACM). He has received several awards, including the IEEE Emanuel R. Piore Award, and the 2011 Outstanding Contributions award by the Association of Computing Machinery. Professor Iyer is also the recipient of the degree of Doctor Honoris Causa from Toulouse Sabatier University in France."
+  },
+  {
+    "name": "Jianming  Jin",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/j-jin1",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "j-jin1@illinois.edu",
+    "research_interests": [
+      "Computational electromagnetics, multi-physics modeling, finite element methods, bioelectromagnetics (magnetic resonance imaging and electromagnetic hyperthermia), wave scattering and propagation, electromagnetic interference and compatibility, microwave and millimeter-wave circuits, interconnects and signal integrity, optoelectronics and photonics, wireless communications, antennas and electromagnetic theory"
+    ],
+    "research_areas": [
+      "Antennas for communication and wireless sensing",
+      "Bioelectromagnetics",
+      "Biomedical Imaging, Bioengineering, and Acoustics",
+      "Electromagnetic compatibility",
+      "Electromagnetic theory",
+      "Electromagnetics and Optics",
+      "Electronic packaging",
+      "High-frequency circuits",
+      "Microwave devices and circuits",
+      "Microwave integrated circuits",
+      "Millimeter wave integrated circuits",
+      "Modeling and simulation of laser systems",
+      "Photonic crystals",
+      "Radar scattering",
+      "Radio and optical wave propagation",
+      "Semiconductor lasers and photonic devices"
+    ],
+    "research_topics": [
+      "Computational science and engineering",
+      "Electronics, Plasmonics, and Photonics",
+      "Healthcare and medical technologies",
+      "RF and microwave engineering"
+    ],
+    "bio": "Jian-Ming Jin received his Ph.D. degree in electrical engineering from the University of Michigan, Ann Arbor, in 1989. He joined the University of Illinois at Urbana-Champaign in 1993 and is currently the Y. T. Lo Endowed Chair Professor of Electrical and Computer Engineering and Director of the Electromagnetics Laboratory and Center for Computational Electromagnetics. He has authored and co-authored over 280 papers in refereed journals and 22 book chapters. He has also authored The Finite Element Method in Electromagnetics (Wiley, 1st edition 1993, 2nd edition 2002, 3rd edition 2014), Electromagnetic Analysis and Design in Magnetic Resonance Imaging (CRC, 1998), Theory and Computation of Electromagnetic Fields (Wiley, 1st edition 2010, 2nd edition 2015), and co-authored Computation of Special Functions (Wiley, 1996), Fast and Efficient Algorithms in Computational Electromagnetics (Artech, 2001), and Finite Element Analysis of Antennas and Arrays (Wiley, 2008). His current research interests include computational electromagnetics, multi-physics modeling, scattering and antenna analysis, electromagnetic compatibility, high-frequency circuit modeling and analysis, bioelectromagnetics, and magnetic resonance imaging. He was elected by ISI as one of the worldâ€™s most cited authors in 2002. Dr. Jin is a Fellow of the IEEE (elected 2001), the Electromagnetics Academy, and Applied Computational Electromagnetics Society (ACES), and a member of URSI Commission B. He was a recipient of the 1994 National Science Foundation Young Investigator Award, the 1995 Office of Naval Research Young Investigator Award, the 1999 ACES Valued Service Award, the 2014 ACES Technical Achievement Award, the 2015 IEEE AP-S Chen-To Tai Distinguished Educator Award, the 2016 ACES Computational Electromagnetics Award, and the 2017 IEEE AP-S Harrington-Mittra Computational Electromagnetics Award. He also received the 1997 Xerox Junior Research Award and the 2000 Xerox Senior Research Award presented by the College of Engineering, University of Illinois at Urbana-Champaign, and was appointed as the first Henry Magnuski Outstanding Young Scholar in the Department of Electrical and Computer Engineering in 1998 and later as a Sony Scholar in 2005. He was appointed as a Distinguished Visiting Professor in the Air Force Research Laboratory in 1999 and was awarded Adjunct, Visiting, Guest, or Chair Professorship by 12 institutions around the world. His name appeared 26 times in the University of Illinois at Urbana-Champaignâ€™s List of Excellent Instructors. His students have won the best paper awards in IEEE 16th Topical Meeting on Electrical Performance of Electronic Packaging and 25th, 27th, 31st, and 32nd Annual Review of Progress in Applied Computational Electromagnetics. In 2015, he received the IEEE Antennas and Propagation Edward E. Altschuler AP-S Magazine Prize Paper Award, and was appointed as the IEEE Antennas and Propagation Society Distinguished Lecturer."
+  },
+  {
+    "name": "Farzad  Kamalabadi",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/farzadk",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "farzadk@illinois.edu",
+    "research_interests": [
+      "Remote sensing and imaging",
+      "Signal and image processing",
+      "Computational imaging and Inverse problems",
+      "Statistical learning and inference",
+      "Space physics"
+    ],
+    "research_areas": [
+      "Computed imaging systems",
+      "Machine learning and pattern recognition",
+      "Radio and optical wave propagation",
+      "Remote Sensing",
+      "Signal Processing"
+    ],
+    "research_topics": [
+      "Charge particle physics and engineering",
+      "Computational science and engineering",
+      "Data science and analytics",
+      "Decision science",
+      "Imaging science and systems",
+      "Machine learning",
+      "Photonics: optical engineering and systems",
+      "Sensing systems"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Nickvash  Kani",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/kani",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "kani@illinois.edu",
+    "research_interests": [
+      "Mathematical Language Processing",
+      "Data retrieval systems",
+      "Scientific Computing"
+    ],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Dimitrios  Katselis",
+    "title": "Teaching Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/katselis",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "katselis@illinois.edu",
+    "research_interests": [],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Timothy L. Killeen",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/tkilleen",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "tkilleen@illinois.edu",
+    "research_interests": [],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Hyunseok  Kim",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/hyunseok",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "hyunseok@illinois.edu",
+    "research_interests": [
+      "Low-dimensional materials and thin films for microelectronics and photonics",
+      "3D heterogeneous integration technology"
+    ],
+    "research_areas": [
+      "Nano-materials",
+      "Semiconductor electronic devices",
+      "Semiconductor lasers and photonic devices",
+      "Semiconductor materials"
+    ],
+    "research_topics": [
+      "Semiconductor devices and manufacturing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Joohyung  Kim",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/joohyung",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "joohyung@illinois.edu",
+    "research_interests": [
+      "Humanoid Motion and Behavior",
+      "Task/Data-driven Robot Design and Motion Control",
+      "Embodied AI",
+      "Human Robot Interaction"
+    ],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Kevin Kim",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/kevinkim",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "kevinkim@illinois.edu",
+    "research_interests": [
+      "Syntheses and Study of Tailored Organometallic, Inorganic and Polymeric Precursors for Sol-Gel Processing, Charged Liquid Cluster Beam Deposition and Chemical Vapor Deposition",
+      "Investigation of Methods for Controlled Fabrication of Thin Films, Nanofibers, and Nanoparticles Using Charged Liquid Cluster Beams of Precursor Solutions",
+      "Investigation of Novel Approaches to Fabricating Micro and Nanoscale Structures for Development of New Devices and Material Systems for Controlled Release, Lighting, Display, Solar Cells, Photosensors, and Power Storage",
+      "Development of Methods for Fabricating Uniform Micro and Nano Spheres and Capsules of Biodegradable and Biocompatible Materials for Advanced Drug Delivery and Cell-Based Therapy",
+      "Development of High Power Electronic Devices Based on III-V Nitride Semiconductors Using Plasma Assisted Molecular Beam Epitaxy and Selective Area Growth Technology"
+    ],
+    "research_areas": [
+      "Bionanotechnology",
+      "Device modeling",
+      "Energy storage conversion, management, and control",
+      "Gallium nitride power semiconductors",
+      "High-performance switching power converters",
+      "Microelectronics and Photonics",
+      "Nano-materials",
+      "Nanotechnology",
+      "Power electronics",
+      "Semiconductor electronic devices"
+    ],
+    "research_topics": [
+      "Bioelectronics and Bioinformatics",
+      "Charge particle physics and engineering",
+      "Electronics, Plasmonics, and Photonics",
+      "Energy",
+      "Healthcare and medical technologies",
+      "Nanomedicine and bio-nanotechnology",
+      "Semiconductor devices and manufacturing",
+      "Solar and renewable technology"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Nam Sung  Kim",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/nskim",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "nskim@illinois.edu",
+    "research_interests": [
+      "Systems for AI/ML",
+      "High-performance, energy-efficent processor, memory, storage, network and system architectures",
+      "Energy-efficient computing techniques for mobile/wearable devices and data centers"
+    ],
+    "research_areas": [
+      "Hardware systems"
+    ],
+    "research_topics": [
+      "AI Applications",
+      "AI Systems",
+      "Artificial Intelligence and Autonomous Systems",
+      "Beyond CMOS",
+      "Bioelectronics and Bioinformatics",
+      "Cyberphysical systems and internet of things",
+      "Data/Information Science and Systems",
+      "Distributed computing and storage systems",
+      "Electronics, Plasmonics, and Photonics",
+      "Healthcare and medical technologies",
+      "Point-of-care diagnostics",
+      "Robotics",
+      "Wearable and mobile computing"
+    ],
+    "bio": "I am the  W.J. â€˜Jerryâ€™ Sanders III â€“ Advanced Micro Devices, Inc. Endowed Chair Professor at the University of Illinois, Urbana-Champaign and a fellow of ACM, IEEE, and NAI. From 2018 to 2020, I took a leave of absence and as a Sr. Vice President at a major memory manufacturing company I led the development of next-generation DRAM products, including the industry's first HBM-PIM that will play a significant role in shaping the future computing landscape. Prior to joining the University of Illinois in the fall of 2015, I was an associate professor at the University of Wisconsin, Madison where I was early-tenured in 2013. My interdisciplinary research incorporates device, circuit, architecture, and software for power-efficient computing. Prior to joining the University of Wisconsin, Madison, I was a senior research scientist at Intel from 2004 to 2008, where I conducted research in power-efficient digital circuit and process architecture. I have published nearly 300 refereed articles to highly-selective conferences and journals in the field of digital circuit, processor architecture, and computer-aided design. The top five most frequently cited papers have almost 7000 citations and  the total number of citations of all my papers is close to 20000. I was a recipient of many prestigious awards, including the IEEE International Symposium on Microarchitecture (MICRO) Best Paper Award in 2003, NSF CAREER Award in 2010, ACM/IEEE Most Influential International Symposium on Computer Architecture (ISCA) Paper Award in 2017, SIGMICRO 2021 Test of Time Awards in 2021, and Intel Outstanding Researcher Award in 2024. I am a hall of fame member of all three major computer architecture conferences, IEEE International Symposium on High-Performance Computer Architecture (HPCA) , MICRO, and ISCA. I earned a PhD degree in Computer Science and Engineering from the University of Michigan, Ann Arbor and Master and Bachelor degrees in Electrical Engineering from the Korea Advanced Institute of Science and Technology."
+  },
+  {
+    "name": "Erhan  Kudeki",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/erhan",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "erhan@illinois.edu",
+    "research_interests": [
+      "Incoherent Scatter Radar Theory and Measurements",
+      "Ionospheric Propagation and Sounding Techniques",
+      "Ionospheric Plasma Instabilities and Equatorial Electrodynamics",
+      "Mid-latitude Field Aligned Irregularities and Meteor Trails",
+      "Atmospheric Winds Waves and Turbulence",
+      "Radar Remote Sensing"
+    ],
+    "research_areas": [
+      "Antennas for communication and wireless sensing",
+      "Atmospheric and ionospheric measurements",
+      "Atmospheric and ionospheric theory",
+      "Atmospheric waves",
+      "Coherent optics/imaging",
+      "Radar and LIDAR",
+      "Radar scattering",
+      "Radio and optical wave propagation",
+      "Remote Sensing"
+    ],
+    "research_topics": [
+      "Charge particle physics and engineering",
+      "Data science and analytics",
+      "Decision science",
+      "Electronics, Plasmonics, and Photonics",
+      "Imaging science and systems",
+      "Photonics: optical engineering and systems",
+      "RF and microwave engineering"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Rakesh  Kumar",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/rakeshk",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "rakeshk@illinois.edu",
+    "research_interests": [
+      "Low power and complexity-effective designs",
+      "CAD/architecture interactions",
+      "Computer Architecture"
+    ],
+    "research_areas": [
+      "Computer architecture",
+      "Fault tolerance and reliability",
+      "Hardware systems"
+    ],
+    "research_topics": [],
+    "bio": "Rakesh Kumar is a Professor and John Bardeen Faculty Scholar in the Electrical and Computer Engineering Department at the University of Illinois at Urbana Champaign with research and teaching interests in computer architecture and system-level design automation. His research has been recognized through an ISCA Influential Paper Award, a MICRO Test-of-Time Award, an ICCAD Ten Year Retrospective Most Influential Paper Award, an ASPDAC 10 Year Retrospective Most Influential Paper (MIP) Award, three selections to ISCA-50 Retrospective, several best paper awards and best paper award nominations (IEEE MICRO Top Picks, ISCA, ASPLOS, HPCA, CASES, SELSE, IEEE CAL), IIT Kharagpur Young Alumni Achiever Award, ARO Young Investigator Award, and UCSD CSE Best Dissertation Award. His teaching and advising have been recognized through Stanley H Pierce Faculty Award and Ronald W Pratt Faculty Outstanding Teaching Award. He often writes about issues at the intersection of technology, policy, and society and has commented on semiconductor issues for The New York Times, The Wall Street Journal, BBC, and Fortune, among others. His book Reluctant Technophiles (Sage Select:2021; Atlantic:2023) was one of \"GQ's Best Indian Non-fiction Books of 2021\". His work on plastic chips was chosen among the three \"biggest semiconductor headlines of 2022\" by IEEE Spectrum. Rakesh has a BS from IIT Kharagpur and a PhD from University of California at San Diego."
+  },
+  {
+    "name": "Jean-Pierre Leburton",
+    "title": "Research Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jleburto",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jleburto@illinois.edu",
+    "research_interests": [
+      "Bio-Nano-Electronics.",
+      "Transport in Two-Dimensional (2D) Materials and Carbon-based Nanostructures.",
+      "Spin Effects in Nanostructures.",
+      "Single Electronics and Spintronics in Quantum Dots and Nanocrystals.",
+      "Electronic and Optical Properties of Quantum Wells, Quantum Wires and Quantum dots",
+      "Modeling and Simulation of Nanostructures.",
+      "Computational Nanotechnology and Theory of Nanoscale Semiconductor Devices.",
+      "Theory of Semiconductor Devices, Modeling and Simulation of Nanostructures, Electronic and Optical Properties of Heterostructures and Low Dimensional Systems, Transport in Quantum Structures and Carbon-based nanostructures, Electronic Properties, Charging Effects in Quantum Dots and Nanocrystals, Spin Effects in Nanostructures, Quantum computation and Quantum Information Processing, Nano-biotechnology."
+    ],
+    "research_areas": [
+      "Advanced carbon-based materials and nanoscale devices",
+      "Bionanotechnology",
+      "Computational nanotechnology",
+      "Device modeling",
+      "Microelectronic and photonic device modeling",
+      "Modeling and simulation of laser systems",
+      "Nano-electronics and single electronics",
+      "Quantum nanostructures for electronics and photonics",
+      "Semiconductor electronic devices",
+      "Semiconductor lasers and photonic devices",
+      "Semiconductor materials",
+      "Sprintronics"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Bioelectronics and Bioinformatics",
+      "Charge particle physics and engineering",
+      "Computational science and engineering",
+      "Genomics",
+      "Nanomedicine and bio-nanotechnology",
+      "Semiconductor devices and manufacturing"
+    ],
+    "bio": "Current Position: Gregory Stilllman Professor of Electrical and Computer Engineering, UIUC Professor of Physics. UIUC Research Professor, Coordinator Science Laboratory, UIUC Research Professor, F. Seitz Material Research Laboratory, UIUC Research Professor, Micro and Nanotechnology Laboratory, UIUC Academic Experience: 2008- present       Professor of Physics, University of Illinois 2003- present       Gregory Stillman Professor of Electrical and Computer Engineering, University of Illinois 2000\t\tVisiting Professor, Swiss Federal Institute of Technology, Lausanne, Switzerland 1992\t\tVisiting Professor, University of Tokyo 1991-present    \tProfessor, University of Illinois 1987-1991\tAssociate Professor, University of Illinois 1983-1987\tAssistant Professor, University of Illinois 1981-1983\tVisiting Assistant Professor, University of Illinois"
+  },
+  {
+    "name": "Minjoo Lawrence Lee",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/mllee",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "mllee@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Microelectronics and Photonics",
+      "Nano-materials",
+      "Quantum nanostructures for electronics and photonics",
+      "Semiconductor electronic devices",
+      "Semiconductor lasers and photonic devices",
+      "Semiconductor materials"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Electronics, Plasmonics, and Photonics",
+      "Photonics: optical engineering and systems",
+      "Semiconductor devices and manufacturing",
+      "Solar and renewable technology"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Kirill Levchenko",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/klevchen",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "klevchen@illinois.edu",
+    "research_interests": [
+      "Cyber-physical system security, network security, e-crime and Internet service abuse"
+    ],
+    "research_areas": [
+      "Communication networks",
+      "Computer security, privacy, and information trust",
+      "Networked control systems",
+      "System modeling and measurement"
+    ],
+    "research_topics": [
+      "Cybersecurity and privacy"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Zhi-Pei  Liang",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/z-liang",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "z-liang@illinois.edu",
+    "research_interests": [
+      "Pattern recognition, parameter estimation, and machine learning",
+      "Image formation theory and algorithms",
+      "Magnetic resonance imaging and spectroscopy"
+    ],
+    "research_areas": [
+      "Biomedical imaging",
+      "Machine learning and pattern recognition",
+      "Signal Processing"
+    ],
+    "research_topics": [
+      "AI Applications",
+      "Neuroscience, Biology"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Daniel M. Liberzon",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/liberzon",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "liberzon@illinois.edu",
+    "research_interests": [
+      "Uncertain and stochastic systems",
+      "Control with limited information",
+      "Nonlinear control theory",
+      "Switched and hybrid systems"
+    ],
+    "research_areas": [
+      "Control",
+      "Discrete-event, switched and hybrid systems",
+      "Nonlinear systems and control"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Steven Lumetta",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/lumetta",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "lumetta@illinois.edu",
+    "research_interests": [
+      "computational genomics, smartphone-based bioassays, optical network architecture, computer architecture, cluster computing, parallel computing, user-level communication, validation and reliability"
+    ],
+    "research_areas": [
+      "Software systems"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Ning Luo",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/nl27",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "nl27@illinois.edu",
+    "research_interests": [
+      "Trustworthy Machine Learning",
+      "Applied Cryptography",
+      "Formal methods and Automated Reasoning",
+      "Security and Privacy"
+    ],
+    "research_areas": [],
+    "research_topics": [],
+    "bio": "I am a tenure-track Assistant Professor in the Department of Electrical and Computer Engineering at the University of Illinois Urbana-Champaign. I earned my Ph.D. in Computer Science from Yale University, advised by Ruzica Piskac. Prior to joining UIUC, I spent a wonderful year as a Postdoctoral Fellow in Computer Science at Northwestern University, hosted by Xiao Wang."
+  },
+  {
+    "name": "Joseph W. Lyding",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/lyding",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "lyding@illinois.edu",
+    "research_interests": [
+      "Carbon Nanotube Purification",
+      "Graphene Growth, Characterization and Device Fabrication",
+      "Ultra-Sharp Probe Fabrication",
+      "Integrating Graphene with Silicon and III-V Semiconductors",
+      "Chirally Pure Nanotube Growth",
+      "Dry Contact Transfer (DCT) Patterning on Nanostructures on Surfaces",
+      "Carbon Nanotube Purification",
+      "Oxide Silicon Interface Mapping",
+      "Cross-Sectional STM of Semiconductor Heterostructures",
+      "Atomically Precise Dopant Mapping",
+      "Deuterium Processing and Hot Electron Degradation in Semiconductor Devices",
+      "Growth of 3D silicon nanostructures",
+      "Carbon Nanotubes and Carbon Based Nanotechnology merged with Silicon and III-V Semiconductors",
+      "Silicon Based Molecular Electronics",
+      "STM-Based Nanolithography and Nanofabrication",
+      "Scanning Tunneling Microscopy and Spectroscopy"
+    ],
+    "research_areas": [
+      "Advanced carbon-based materials and nanoscale devices",
+      "Nano-electronics and single electronics",
+      "Nano-materials",
+      "Nanotechnology",
+      "Quantum nanostructures for electronics and photonics",
+      "Semiconductor electronic devices",
+      "Semiconductor materials"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Bioelectronics and Bioinformatics",
+      "Electronics, Plasmonics, and Photonics",
+      "Energy",
+      "Nanomedicine and bio-nanotechnology",
+      "Quantum optics, cryptography, information, and computing",
+      "Semiconductor devices and manufacturing",
+      "Storage and conversion"
+    ],
+    "bio": "After being recruited to Illinois in 1984 by John Bardeen to work on the 1D charge density wave problem Professor Lyding constructed the first atomic resolution scanning tunneling mi-croscope (STM) in the Midwestern United States and one of the earliest STMs in the US. He followed this by inventing an ultra-stable STM in 1987 that was patented (US Patent 4,841,148) and licensed by the University of Illinois to RHK and McAllister Technical Services. Lyding’s design has been copied worldwide and has also been included in major textbooks on surface science. In 1994 Professor Lyding developed a novel new STM-based nanofabrication scheme and achieved atomic resolution patterning of silicon surfaces through the selective desorption of hydrogen. This method was immediately recognized and copied worldwide with Lyding giving scores of invited and several plenary talks. His initial paper on the subject [Appl. Phys. Lett. 64, 2010 (1994)] has been cited 487 times. Lyding’s initial work uncovered the fact that there were two distinct physical phenomena associated the hydrogen desorption process. This led to collaboration with Dr. Phaedon Avouris at IBM who modeled these processes. Lyding was recognized with an IBM Partnership Award in 1996 which led to a further study of the desorption process with a cryogenic ultrahigh vacuum (UHV) STM constructed in Lyding’s lab. [Physical Review Letters [80, 1336 (1998), cited 221 times] and the development of feedback controlled lithography for single atom precision hydrogen desorption [Nanotechnology 11, 70 (2000), cited 208 times]. In 1995 Lyding discovered a giant isotope effect when hydrogen was replaced by deuterium on silicon surfaces, in an experiment suggested by Avouris. STM desorption studies showed that deuterium was two orders of magnitude more difficult to desorb than hydrogen. This was published in Chemical Physical Letters [257, 148 (1996)] and Surface Science [363, 368 (1996)] with 157 and 172 citations respectively. In a meeting with Professor Karl Hess, Lyding made the connection between the isotope effect he had observed in the STM experiments and the hydrogen-related hot-carrier degradation in CMOS transistors. Lyding proposed replacing hydrogen with deuterium in CMOS to see if the same isotope effect could reduce the degradation. Lyding and Hess worked with Dr. Isik Kizilyalli of Lucent to treat commercial CMOS chips in deuterium and their initial results showed a dramatic 50x reduction in hot-carrier degradation. Their first paper [Lyding, Hess and Kizilyalli, Appl. Phys. Lett. 68, 2526 (1996)] has been cited 367 times. This result was met with major publicity and was rapidly confirmed by industrial laboratories worldwide. Deuterium has been used in commercial production by several major chip manufacturers, most recently by Samsung, under license from the University of Illinois, for the ARM processors used in iPhone and iPad devices. In 1996 Lyding was called to Washington D.C. by Senator Bill Frist to present the deuterium result to a Senate conference forum on science and technology, exploring the unanticipated technology benefits of supporting fundamental research. In 2001-2002 Lyding began exploring carbon nanotubes on silicon as a potential hybrid approach to using nanotubes. Unfortunately, at that time there was no technique to integrate carbon nanotubes with clean, air sensitive surfaces. STM studies up until then relied on solution deposition of nanotubes onto inert gold surfaces. To circumvent this problem, Lyding developed a new method that he termed dry contact transfer (DCT) [Appl. Phys. Lett. 83, 5029 (2003), cited 84 times] in which nanotubes could be brought into a UHV environment and then directly stamped onto atomically clean surfaces. Lyding’s group published a number of papers between 2003 and 2007 using DCT to place nanotubes on silicon and III-V compound semiconductor surfaces. In these papers they noted a strong interaction between nanotube and substrate based on the relative alignment of the nanotube axis and substrate atomic row directions. Strong doping effects and nanotube bandgap changes were also observed, underscoring the detailed complexity of potential technological applications of carbon nanotubes. In 2007 Lyding extended the DCT method to the study of monolayer graphene on silicon and III-V substrates. His first paper on graphene [Nanotechnology 19, 015704 (2008)] was recognized as one of the most accessed papers in Nanotechnology for 2008. Unlike nanotubes, finite sheets of graphene have edges and it was predicted in 1996 that edges with the so called zigzag symmetry would exhibit a metallic edge state that should have a pronounced effect on transport through graphene quantum dots or nanoribbons. However, experiments didn’t see this effect leading to postulation in the literature that nonuniformity and edge disorder were obfuscating the observation of edge effects. Through DCT of graphene on silicon Lyding and graduate student Kyle Ritter demonstrated for the first time the existence of the metallic zigzag edge state. Furthermore, they studied quantum size effects down to 2nm lateral graphene dimensions, an order of magnitude smaller than previous studies. This work was published in Nature Materials [8, 235 (2009), cited 505 times]. Lyding’s most recent work on graphene has demonstrated the admixture of graphene and substrate electron wavefunctions [Nano Lett. 10, 3446 (2010)], silicon-induced metallic states in semiconducting graphene quantum dots [Nano Lett. 11, 2735 (2011)], and that the copper (111) surface is the optimal copper surface for monolayer graphene growth [Nano Lett. 11, 4547 (2011), cited 156 times]. In 2006 Lyding invented a novel process for sharpening conductive probes down to sub-5nm radii. His method, Field-Directed Sputter Sharpening (FDSS), is based on ion sputtering of a biased probe. The probe bias establishes an inhomogeneous electric field at the tip apex that deflects the incoming ions and selectively sharpens the apex, which increases the field strength and enhances the effect. High performance STM and AFM tips with super hard coatings have now been demonstrated and Lyding is now the Chief Technical Officer of Tiptek, LLC, a new start-up company to commercialize this technology. The US Patent Office has issued FDSS patents (8,070,920 and 8,819,861)."
+  },
+  {
+    "name": "Jonathan Makela",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jmakela",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jmakela@illinois.edu",
+    "research_interests": [
+      "Optical and radio remote sensing techniques from both ground- and satellite-based platforms.",
+      "Response of the Earth's ionosphere to geomagnetic storms.",
+      "Ionospheric physics, especially irregularities at low- and mid-latitudes and their effects on trans-ionospheric satellite signals."
+    ],
+    "research_areas": [
+      "Atmospheric and ionospheric measurements",
+      "Atmospheric and ionospheric theory",
+      "Atmospheric waves",
+      "Electromagnetics and Optics",
+      "Radio and optical wave propagation",
+      "Remote Sensing"
+    ],
+    "research_topics": [
+      "Data science and analytics",
+      "Imaging science and systems",
+      "Sensing systems"
+    ],
+    "bio": "Prof. Makela earned his B.S. (1999) and Ph.D. (2003) degrees from Cornell University from the School of Electrical and Computer Engineering in Cornell's College of Engineering.  From 2002-2004 he was a post-doctoral research associate at the Naval Research Laboratory, researching in the Thermosphere-Ionosphere Research Applications group.  He joined ECE ILLINOIS' faculty in 2004 where he is currently a Professor.  He has received several awards for his research and teaching, including the 2011 Mac Van Valkenburg Early Career Teaching Award from the IEEE Education Society and the 2008 Zeldovich Medal form the international Committee on Space Research and Russian Academy of Sciences."
+  },
+  {
+    "name": "Olgica  Milenkovic",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/milenkov",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "milenkov@illinois.edu",
+    "research_interests": [
+      "Machine Unlearning",
+      "Federated learning for computational biology",
+      "Graph and hypergraph neural networks",
+      "Communications - Coding theory and applications",
+      "Learning in Hyperbolic Spaces",
+      "Graph Theory",
+      "Applications of Steiner Systems",
+      "Hypergraph clustering",
+      "DNA-Based Data Storage, Coding for DNA-Based Data Storage, String Reconstruction",
+      "Community Detection via Correlation Clustering",
+      "Social Sciences and Voting Theory",
+      "Rank aggregation",
+      "Compressive Sensing",
+      "Signal Processing",
+      "Information Theory",
+      "Constrained Coding",
+      "Error-Control Coding (Algebraic/Iterative)",
+      "Bioinformatics",
+      "Analysis of Algorithms"
+    ],
+    "research_areas": [
+      "Algorithms and computational complexity",
+      "Biosensors and bioelectronics",
+      "Coding theory and applications",
+      "Communications",
+      "Dynamic games and decision theory",
+      "Fault tolerance and reliability",
+      "Information theory",
+      "Random processes",
+      "Signal detection and estimation",
+      "Signal Processing",
+      "VLSI in communications"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Applications",
+      "Bioelectronics and Bioinformatics",
+      "Computational science and engineering",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Distributed computing and storage systems",
+      "Genomics",
+      "Machine learning",
+      "Network science and engineering",
+      "Sensing systems",
+      "Socio-technical systems and networking"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Olga Mironenko",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/olgamiro",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "olgamiro@illinois.edu",
+    "research_interests": [
+      "Engineering education",
+      "Renewable energy",
+      "Electric Vehicles",
+      "Vehicle-to-Grid Integration",
+      "High Precision Current Sensors"
+    ],
+    "research_areas": [
+      "Power and Energy Systems"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Andrey  Mironov",
+    "title": "Research Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/amirono2",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "amirono2@illinois.edu",
+    "research_interests": [
+      "Photochemistry",
+      "Laser physics",
+      "UV and VUV light sources",
+      "Alkali lasers",
+      "Atomic and molecular spectroscopy"
+    ],
+    "research_areas": [
+      "Lasers and optical physics",
+      "Plasma devices and plasma science"
+    ],
+    "research_topics": [],
+    "bio": "Andrey Mironov received both the B.S. and M.S. degrees from the National Research University of Electronic Technology (Moscow, Russia) in 2010 and the Ph.D. degree in Electrical and Computer Engineering (ECE) from the University of Illinois (Urbana-Champaign) in 2016. Currently, Dr. Mironov is a Research Assistant Professor in the Laboratory for Optical Physics and Engineering at the University of Illinois at Urbana-Champaign. He has conducted research in the areas of laser physics, nano-optics and materials, optical physics, and photochemical materials fabrication for more than 10 years. Dr. Mironov has demonstrated several new lasers and lamps, including rubidium (Rb)-rare gas lasers having a quantum efficiency above 100%, and narrow-band 194 nm lamps that have made possible a new generation of compact optically-driven atomic clocks. Recently, he co-invented a photolithographic technique employing flat vacuum-ultraviolet (VUV) lamps to inexpensively fabricate nanostructures and optical components in polymers. Dr. Mironov is a co-inventor of 11 issued or pending patents, and a co-author of 15 scientific publications and more than 30 conference talks in the fields of low temperature plasma devices, nano- and microfabrication of optics and semiconductors, and laser spectroscopy."
+  },
+  {
+    "name": "Sayan  Mitra",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/mitras",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "mitras@illinois.edu",
+    "research_interests": [
+      "Control Theory",
+      "Formal Methods",
+      "AI and Autonomy"
+    ],
+    "research_areas": [
+      "Embedded, real-time, and hybrid systems",
+      "Formal methods and software verification",
+      "Programming languages",
+      "Robotics and motion planning",
+      "Software systems"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Cyberphysical systems and internet of things",
+      "Cybersecurity and privacy",
+      "Robotics",
+      "Robotics, Control",
+      "Security, Trust, Verification"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Radhika  Mittal",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/radhikam",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "radhikam@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Communication networks",
+      "Networking and distributed computing",
+      "Operating systems"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Thomas  Moon",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/tmoon",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "tmoon@illinois.edu",
+    "research_interests": [
+      "Engineering Education",
+      "Internet of Things",
+      "Signal Processing",
+      "mmWave Radar",
+      "Wireless Sensing"
+    ],
+    "research_areas": [
+      "Signal Processing",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "RF and microwave engineering"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Pierre  Moulin",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/pmoulin",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "pmoulin@illinois.edu",
+    "research_interests": [
+      "Image and Video Processing, Machine Learning, Compression, Recognition, Statistical Signal Processing, Statistical Learning, Information Theory, Information Hiding, Security"
+    ],
+    "research_areas": [
+      "Information theory",
+      "Signal detection and estimation",
+      "Signal Processing",
+      "Watermarking and information forensics"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Cognitive computing",
+      "Computational science and engineering",
+      "Cyberphysical systems and internet of things",
+      "Cybersecurity and privacy",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Decision science",
+      "Distributed computing and storage systems",
+      "Game theory",
+      "Human computer interactions",
+      "Imaging science and systems",
+      "Machine learning",
+      "Machine vision",
+      "Network science and engineering",
+      "Sensing systems",
+      "Smart infrastructures",
+      "Socio-technical systems and networking",
+      "Wearable and mobile computing"
+    ],
+    "bio": null
+  },
+  {
+    "name": "David M. Nicol",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/dmnicol",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "dmnicol@illinois.edu",
+    "research_interests": [
+      "security policy and its analysis",
+      "parallel discrete-event simulation",
+      "fluid based modeling",
+      "mathematical modeling and analysis",
+      "security",
+      "public-key infrastructure"
+    ],
+    "research_areas": [
+      "Computer networking",
+      "Computer security, privacy, and information trust",
+      "Embedded, real-time, and hybrid systems",
+      "Parallel processing",
+      "Reliable and secure systems",
+      "System modeling and measurement"
+    ],
+    "research_topics": [],
+    "bio": "Prof. David M. Nicol is the Herman M. Dieckamp Endowed Chair in Engineering at the University of Illinois at Urbana‐Champaign, and a member of the Department of Electrical and Computer Engineering.  He also serves as the Director of the Information Trust Institute (iti.illinois.edu), and the Director of the Advanced Digital Sciences Center (Singapore). He is PI for two national centers for infrastructure resilience: the DHS‐funded Critical Infrastructure Resilience Institute (ciri.illinois.edu), and the DoE funded Cyber Resilient Energy Delivery Consortium (cred‐c.org); he is also PI for the Boeing Trusted Software Center, and co-PI for the NSA‐funded Science of Security lablet. Prior to joining UIUC in 2003 he served on the faculties of the computer science departments at Dartmouth College (1996‐2003), and before that the College of William and Mary (1987‐1996). He has won recognition for excellence in teaching at all three universities. His research interests include trust analysis of networks and software, analytic modeling, and parallelized discrete‐event simulation, research which has led to the founding of startup company Network Perception, and election as Fellow of the IEEE and Fellow of the ACM. He is the inaugural recipient of the ACM SIGSIM Outstanding Contributions award, and co‐author of the widely used undergraduate textbook “Discrete‐Event Systems Simulation”. Nicol holds a B.A. (1979) degree in mathematics from Carleton College, M.S. (1983) and Ph.D. (1985) degrees in computer science from the University of Virginia."
+  },
+  {
+    "name": "Michael L. Oelze",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/oelze",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "oelze@illinois.edu",
+    "research_interests": [
+      "Acoustic Communications",
+      "Ultrasound therapy",
+      "Coded Excitation and Ultrasound",
+      "Ultrasound Computed Tomography",
+      "Bioeffects of ultrasound",
+      "Treatment monitoring using ultrasound",
+      "Cancer diagnosis using ultrasound",
+      "Quantitative ultrasound imaging",
+      "Ultrasound backscatter microscopy"
+    ],
+    "research_areas": [
+      "Acoustics",
+      "Biomedical imaging",
+      "Biomedical Imaging, Bioengineering, and Acoustics"
+    ],
+    "research_topics": [
+      "Healthcare and medical technologies",
+      "Imaging science and systems",
+      "Machine learning",
+      "Medical imaging",
+      "Point-of-care diagnostics",
+      "Sensing systems"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Janak H. Patel",
+    "title": "Research Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jhpatel",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jhpatel@illinois.edu",
+    "research_interests": [
+      "VLSI Testing and Testability, VLSI Design Automation"
+    ],
+    "research_areas": [
+      "Computer aided design",
+      "Computer aided design of integrated circuits",
+      "Computer architecture",
+      "Digital integrated circuits",
+      "Hardware systems",
+      "Hardware verification and testing",
+      "Logic design and VLSI"
+    ],
+    "research_topics": [],
+    "bio": "Patel’s research contributions include Pipeline Scheduling, Cache Coherence, Cache Simulation, Cache Data Prefetch, Multiprocessor memory modeling and analysis, Interconnection Networks, On-line Error Detection, Reliability analysis of memories with ECC and Scrubbing, Design for Testability, Built-In Self-Test, Fault Simulation and Automatic Test Generation.  Patel is the inventor of the well known Illinois Cache Coherence Protocol and Illinois Scan Architecture, both are used heavily in most modern microprocessors.  In addition, his Stride Prediction based Data Prefetch is the basis for nearly all data prefetch techniques used in most current microprocessors.  Patel has supervised over 85 M.S. and Ph.D. theses and published over 200 technical papers. During his academic stay at Illinois, Patel has had a major role in two start-ups. First was as founding technical advisor to Nexgen Microsystems, which gave rise to AMD’s present line of microprocessors. Second was as a co-founder of Sunrise Test Systems, which now is the basis for many test tools from Synopsys.  In addition, Patel has provided technical consulting to a wide range of industries on architecture, reliability and testing. He received a Bachelor of Science degree in Physics from Gujarat University, India and Bachelor of Technology in Electrical Engineering from the Indian Institute of Technology, Madras, India, and a Master of Science and Ph.D. in Electrical Engineering from Stanford University. He is a Fellow of ACM and IEEE, a recipient of the 1998 IEEE Piore Award and IEEE Test Technology Council Lifetime Achievement Award."
+  },
+  {
+    "name": "Zhen  Peng",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/zvpeng",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "zvpeng@illinois.edu",
+    "research_interests": [
+      "Classical electromagnetism with scalable algorithms: extreme-scale electromagnetic computation; computational electrodynamics with machine intelligence",
+      "Statistical electromagnetics for complex environments: physics-oriented statistical wave analysis integrating order and chaos; electromagnetic information theory for wireless communication",
+      "Quantum electromagnetics: simulating probability in space and time domain",
+      "Chaotic reverberation chamber: measurement and control of uncertainties"
+    ],
+    "research_areas": [
+      "Antennas for communication and wireless sensing",
+      "Computational electromagnetics",
+      "Computer aided design of integrated circuits",
+      "Electromagnetic compatibility",
+      "Electromagnetic theory",
+      "Electromagnetics and Optics",
+      "Electronic packaging",
+      "Information theory",
+      "Microwave devices and circuits",
+      "Radar scattering",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "Machine learning",
+      "RF and microwave engineering"
+    ],
+    "bio": "Zhen Peng (M’09–SM’18) received the B.S. degree in electrical engineering and information science from the University of Science and Technology of China, Hefei, China, in 2003 and the Ph.D. degree in electromagnetics and microwave engineering from the Chinese Academy of Science, Beijing, China, in 2008. From 2008 to 2013, He was with the ElectroScience Laboratory, The Ohio State University, Columbus, OH, first as a Post-Doctoral Fellow (2008-2009) and then as a Senior Research Associate (2010-2013). From 2013 to 2019, He was an Assistant Professor at the Department of Electrical and Computer Engineering, The University of New Mexico (UNM), Albuquerque, NM, USA.  He is currently an Associate Professor at the Department of Electrical and Computer Engineering (ECE ILLINOIS), University of Illinois at Urbana-Champaign, Champaign, IL, USA."
+  },
+  {
+    "name": "Chandrasekhar  Radhakrishnan",
+    "title": "Teaching Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/cradhak",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "cradhak@illinois.edu",
+    "research_interests": [
+      "Statistical/Adaptive Signal Processing techniques in circuit design",
+      "Bio-inspired algorithms in signal processing",
+      "Alternate number systems based circuits and computations",
+      "Design of robust algorithms and architectures for nanoscale integrated circuits",
+      "Signal processing and learning algorithms implementation in in-memory architecture"
+    ],
+    "research_areas": [
+      "Circuits"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Maxim  Raginsky",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/maxim",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "maxim@illinois.edu",
+    "research_interests": [
+      "Deterministic and stochastic dynamical systems in machine learning, optimization, and control",
+      "Probability and stochastic processes",
+      "Statistical machine learning",
+      "Information theory"
+    ],
+    "research_areas": [
+      "Control",
+      "Dynamic games and decision theory",
+      "Information theory",
+      "Machine learning",
+      "Machine learning and pattern recognition",
+      "Nonlinear systems and control",
+      "Random processes",
+      "Stochastic systems and control"
+    ],
+    "research_topics": [
+      "AI Theory",
+      "Artificial Intelligence and Autonomous Systems",
+      "Data/Information Science and Systems",
+      "Decision science",
+      "Game theory",
+      "Machine learning",
+      "Network science and engineering",
+      "Robotics, Control"
+    ],
+    "bio": "Maxim Raginsky received the B.S. and M.S. degrees in 2000 and the Ph.D. degree in 2002 from Northwestern University, all in Electrical Engineering. He has held research positions with Northwestern, the University of Illinois at Urbana-Champaign (where he was a Beckman Foundation Fellow from 2004 to 2007), and Duke University. In 2012, he has returned to the UIUC, where he is currently a Professor with the Department of Electrical and Computer Engineering and the Coordinated Science Laboratory. He also holds a courtesy appointment with the Department of Computer Science."
+  },
+  {
+    "name": "Shaloo  Rakheja",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/rakheja",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "rakheja@illinois.edu",
+    "research_interests": [
+      "Compact Modeling of wide bandgap and ultrawide bandgap semiconductor devices for high-frequency and high-power applications",
+      "Modeling and simulation of spin-based devices for low-power non-volatile memory and brain-inspired computing",
+      "Modeling of reconfigurable devices using van der Waals materials and ferroelectrics for in-memory computing"
+    ],
+    "research_areas": [
+      "Semiconductor electronic devices",
+      "Sprintronics"
+    ],
+    "research_topics": [],
+    "bio": "I am an expert in physics-based modeling of nanoelectronic and magnetic devices for energy-efficient computing and communication. The models I create are predictive in nature, provide guidance to experiments, reduce costs of test-structures, improve the turnaround and success rate of laboratory tests by preventing trial and error, and enable correct interpretation of experimental data. I have been actively disseminating the simulation programs I develop via the open-source platform, nanoHUB, since 2013. The purpose of my computational outreach is to strengthen the innovation loop between materials scientists, device engineers, and circuit designers and eventually enable new functionalities in the next-generation sensing, memory, computing, and communication technologies."
+  },
+  {
+    "name": "Umberto  Ravaioli",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/ravaioli",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "ravaioli@illinois.edu",
+    "research_interests": [
+      "Cloud computing applications",
+      "Cyberinfrastructure and containerization for scientific research",
+      "Machine learning for applications in materials, imaging and bioengineering",
+      "Novel materials and devices for thermoelectric applications",
+      "Coupled electro-thermal simulation of semiconductor devices",
+      "Properties of Carbon Nanotubes",
+      "Charge Transport in Biological Systems (Ionic Channels)",
+      "Reliability of MOS Devices",
+      "Supercomputation and Visualization",
+      "Quantum devices",
+      "Numerical methods for semiconductor device simulation",
+      "Monte Carlo simulation of high speed electronic devices"
+    ],
+    "research_areas": [
+      "Computational electromagnetics",
+      "Lasers and optical physics",
+      "Microelectronic and photonic device modeling",
+      "Microelectronics and Photonics",
+      "Microwave devices and circuits",
+      "Nanotechnology",
+      "Semiconductor electronic devices"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Computational science and engineering",
+      "Data science and analytics",
+      "Machine learning",
+      "Nanomedicine and bio-nanotechnology",
+      "RF and microwave engineering"
+    ],
+    "bio": null
+  },
+  {
+    "name": "John F. Reid",
+    "title": "Research Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/j-reid1",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "j-reid1@illinois.edu",
+    "research_interests": [
+      "Translation of research into practice, outcome-driven innovation processes, business model innovation, and innovation management.",
+      "Circular bioeconomy in agriculture, precision agriculture technologies, agricultural robotics and automation, automation of agricultural and biological systems.",
+      "Deployment of embodied AI in agriculture, construction, and marine application verticals."
+    ],
+    "research_areas": [],
+    "research_topics": [
+      "AI Applications",
+      "Vision, Audio"
+    ],
+    "bio": "Dr. Reid is a Research Professor in Computer Science and Ag & Bio Engineering, and he is the Executive Director in the Center for Digital Agriculture. Reid has 40 years of highly accomplished technology leadership experience in industry and academia. From 1986-2000, he served on the faculty at the University of Illinois where his research focused on sensing, automation, and control of food and agricultural systems. He then spent 19 years with Deere and Company where initiated the development of enterprise field robotics capabilities. He has experience in innovation management having served as Director, Enterprise Product Innovation and Technology for 14 years. In 2017 he was recognized as John Deere Technical Fellow for his contributions in Technology Innovation. From 2020-2022, he was Vice President of Enterprise Technologies for Brunswick Corporation. Reid received his B.S. and M.S. degrees in Agricultural Engineering from Virginia Tech.  Reid received his PhD in Agricultural Engineering from Texas A&M University where his dissertation topic was automatic tractor guidance via computer vision. His research interests have broadly focused advancing agricultural and biological systems through advance sensing, automation, and control. He and his collaborators have produced more than 30 patents in these research areas. Dr. Reid's external leadership includes Chairmanship of the Innovation Research Interchange from 2018-2019, serving on Board of Directors of Fraunhofer USA from 2013-2022, and Dr. Reid is a full member of the Club of Bologna, a global taskforce for the development of strategies for agricultural mechanization. Awards include University of Illinois University Scholar (1995), ASABE Fellow (2004), and John Deere Fellow (2017) and Virginia Tech Academy of Engineering Excellence (2020).   Dr. Reid was elected to the National Academy of Engineering in 2019 for contributions to automation in agriculture."
+  },
+  {
+    "name": "Elyse  Rosenbaum",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/elyse",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "elyse@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Circuits",
+      "Device modeling",
+      "Digital integrated circuits",
+      "Integrated circuit reliability",
+      "Semiconductor electronic devices"
+    ],
+    "research_topics": [
+      "Electronic Design Automation",
+      "Machine learning",
+      "Semiconductor devices and manufacturing"
+    ],
+    "bio": "Elyse Rosenbaum is the Melvin and Anne Louise Hassebrock Professor in Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign. She received the Ph.D. degree in electrical engineering from University of California, Berkeley. She is the director of the NSF-supported Center for Advanced Electronics through Machine Learning (CAEML), a joint project of the University of Illinois, North Carolina State University, and Penn State. Her current research interests include machine-learning aided behavioral modeling of microelectronic components and systems, compact models, component-level ESD reliability, and ESD-robust high-speed I/O circuit design. Dr. Rosenbaum has authored or co-authored over 200 technical papers; she has been an editor for IEEE Transactions on Device and Materials Reliability and IEEE Transactions on Electron Devices. She was the recipient of a Best Student Paper Award from the IEDM, Outstanding and Best Paper Awards from the EOS/ESD Symposium, a Technical Excellence Award from the SRC, an NSF CAREER award, an IBM Faculty Award, and the ESD Association’s Industry Pioneer Recognition Award. She is a Fellow of the IEEE."
+  },
+  {
+    "name": "Romit  Roy Choudhury",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/croy",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "croy@illinois.edu",
+    "research_interests": [
+      "(1) Generative Models, (2) Inverse Problems, (3) Neural imaging (NeRFs), (4) Blackbox Optimization, (5) Wireless Sensing and Signal Processing ----> Visithttps://croy.web.engr.illinois.edu/forupdatedinformation."
+    ],
+    "research_areas": [
+      "Audio, speech, music and auditory processing",
+      "Computer vision and pattern recognition",
+      "Machine learning and pattern recognition",
+      "Robotics, vision, and artificial intelligence"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "Vision, Audio"
+    ],
+    "bio": "This profile page is not maintained. Please visit Romit's updated website for all current information."
+  },
+  {
+    "name": "Christopher  Schmitz",
+    "title": "Teaching Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/cdschmit",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "cdschmit@illinois.edu",
+    "research_interests": [
+      "Adaptive Signal Processing and Beamforming",
+      "Wireless Communication",
+      "Improving Education in STEM Disciplines"
+    ],
+    "research_areas": [
+      "Adaptive signal processing",
+      "Audio, speech, music and auditory processing",
+      "Signal detection and estimation",
+      "Wireless communication systems"
+    ],
+    "research_topics": [],
+    "bio": "Dr. Schmitz graduated valedictorian of Pana High School in 1988 and was a Bronze Tablet recipient upon receiving his BS in Electrical Engineering at the University of Illinois in 1993.  He received his MS in Electrical Engineering at the University of Illinois in 1996 in the area of fault-tolerant adaptive filtering.  Schmitz worked at TRW Space and Electronics Group in Hermosa Beach, California, in the area of  satellite communication. He completed his Ph.D. in 2002 in interference cancellation in multi-user communications. Upon graduation, he joined Beckman Institute of the University of Illinois to develop and test signal processing and wireless communication algorithms for advanced hearing device designs.  Since 2005, Schmitz has also been active in the Electrical and Computer Engineering department performing course development work and teaching in the areas of digital signal processing and digital communications.  Since 2012, he serves the department as Chief Undergraduate Advisor and the course director for ECE110, Intro to Electronics. His website can be found at http://publish.illinois.edu/cdschmitz/ ."
+  },
+  {
+    "name": "Jonathon Kenneth Schuh",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/schuh4",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "schuh4@illinois.edu",
+    "research_interests": [
+      "Power and Energy Storage",
+      "Computational Physics",
+      "Electromechanics",
+      "Tribology"
+    ],
+    "research_areas": [
+      "Electrical machines and drive systems",
+      "Energy storage conversion, management, and control",
+      "Operation and control of power systems"
+    ],
+    "research_topics": [],
+    "bio": "Jonathon K. Schuh obtained in BS with Highest Honors in Mechanical Engineering from the University of Illinois at Urbana-Champaign in 2013. He obtained his MS in Mechanical Engineering in 2015 and his Ph.D. in Theoretical and Applied Mechanics in 2018, both from the University of Illinois at Urbana-Champaign. After graduating with his Ph.D., Jonathon worked as a postdoctoral research associate with Professor Pete Sauer, the Grainger Chair Emeritus Professor of Electrical Engineering at the University of Illinois, on control of magnetic actuators. He also taught sections of ECE 330: Power Circuits and Electromechanics. In January of 2020, Jonathon joined the ECE Department as a Teaching Assistant Professor. He also obtained a Master of Business Administration, also from the University of Illinois, in 2021."
+  },
+  {
+    "name": "Jose E. Schutt-Aine",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/jesa",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "jesa@illinois.edu",
+    "research_interests": [
+      "Machine Learning for High-Speed System Modeling",
+      "Signal Integrity",
+      "CAD Tools for Interconnects and Packages",
+      "High-Performance Computing for Electromagnetic Modeling",
+      "X-Parameter Modeling and Simulation",
+      "High-Frequency Measurements",
+      "Mixed-Signal Design"
+    ],
+    "research_areas": [
+      "Circuits",
+      "Computer aided design",
+      "Device modeling",
+      "Electromagnetic theory",
+      "Electromagnetics and Optics",
+      "Electronic packaging",
+      "High-frequency circuits",
+      "Microwave devices and circuits"
+    ],
+    "research_topics": [
+      "Electronic Design Automation"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Alexander Schwing",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/aschwing",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "aschwing@illinois.edu",
+    "research_interests": [
+      "Machine Learning",
+      "Computer Vision"
+    ],
+    "research_areas": [
+      "Computer vision and pattern recognition",
+      "Machine learning",
+      "Robotics, vision, and artificial intelligence"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "Artificial Intelligence and Autonomous Systems",
+      "Cognitive computing",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Machine learning",
+      "Machine vision",
+      "Vision, Audio"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Naresh R. Shanbhag",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/shanbhag",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "shanbhag@illinois.edu",
+    "research_interests": [
+      "deep in-memory architectures and integrated circuits for inference at the Edge",
+      "machine learning algorithms and architectures for resource-constrained compute platforms",
+      "energy and latency-efficient integrated circuits for machine learning, communications, and signal processing"
+    ],
+    "research_areas": [
+      "Circuits",
+      "Communications",
+      "Signal Processing",
+      "VLSI architectures and integrated circuits for DSP and communications",
+      "VLSI in communications"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Systems",
+      "Artificial Intelligence and Autonomous Systems",
+      "Machine learning"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Victoria Shao",
+    "title": "Teaching Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/yangshao",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "yangshao@illinois.edu",
+    "research_interests": [
+      "Electromagnetic compatibility/interference (EMC/EMI), Signal and power integrity analysis (SI/PI), Computational electromagnetics (CEM), High-power microwave, and Multi-physics analysis."
+    ],
+    "research_areas": [
+      "Electromagnetic compatibility"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Ilan  Shomorony",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/ilans",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "ilans@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Algorithms and computational complexity",
+      "Communication networks",
+      "Information theory"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Theory",
+      "Data science and analytics",
+      "Genomics",
+      "Machine learning"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Craig Shultz",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/shultz88",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "shultz88@illinois.edu",
+    "research_interests": [
+      "Human Computer Interaction - Exploring contemporary HCI uses cases and building novel input and output devic",
+      "Electrostatic Actuation - Modeling and Characterization of moderate to high voltage electrostatic actuators",
+      "Haptic Technology - Designing and evaluating tactile interaction devices"
+    ],
+    "research_areas": [
+      "Robotics, vision, and artificial intelligence",
+      "Signal Processing"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Andrew Singer",
+    "title": "Research Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/acsinger",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "acsinger@illinois.edu",
+    "research_interests": [
+      "Signal Processing, Communication Systems, Machine Learning algorithms and systems, Sonar/Lidar/Optical Signal Processing, financial modeling and algorthms, optical communications, wireline/wireless communications, underwater acoustic communications sensing and localization, decision making/aggregation systems, augmented listening and audio processing, robotics."
+    ],
+    "research_areas": [
+      "Acoustics",
+      "Adaptive signal processing",
+      "Analog integrated circuits",
+      "Antennas for communication and wireless sensing",
+      "Circuits",
+      "Coding theory and applications",
+      "Communication networks",
+      "Communications",
+      "Computer architecture",
+      "Computer vision and pattern recognition",
+      "Digital integrated circuits",
+      "Dynamic games and decision theory",
+      "Information theory",
+      "Machine learning and pattern recognition",
+      "Nonlinear systems and control",
+      "Optical communications",
+      "Parallel processing",
+      "Random processes",
+      "Signal detection and estimation",
+      "Signal Processing",
+      "VLSI architectures and integrated circuits for DSP and communications",
+      "VLSI in communications",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "Autonomous vehicular technology, UAVs",
+      "Bioelectronics and Bioinformatics",
+      "Cognitive computing",
+      "Cyberphysical systems and internet of things",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Decision science",
+      "Healthcare and medical technologies",
+      "Imaging science and systems",
+      "Machine learning",
+      "Robotics",
+      "Sensing systems",
+      "Socio-technical systems and networking",
+      "Speech, language, and audio processing",
+      "Wearable and mobile computing"
+    ],
+    "bio": "Andrew C. Singer received the S.B., S.M., and Ph.D. degrees, all in electrical engineering and computer science, from the Massachusetts Institute of Technology in 1990, 1992, and 1996, respectively. Since 1998, he has been on the faculty of the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign, where he is currently holds the Fox Family Endowed Professorship and the rank of Professor in the Electrical and Computer Engineering Department and serves as Associate Dean for Innovation and Entrepreneurship in the College of Engineering.  He also holds the rank of Professor in the Departments of Industrial and Enterprise Systems Engineering and in the Department of Business Administration in the College of Business.  During the academic year 1996, he was a Postdoctoral Research Affiliate in the Research Laboratory of Electronics at MIT.  From 1996 to 1998, he was a Research Scientist at Sanders, A Lockheed Martin Company in Manchester, New Hampshire, where he designed algorithms, architectures and systems for a variety of DOD applications.  His research spans algorithms and architectures for statistical signal processing and communication systems, as well as information theory and machine learning.  He was a Hughes Aircraft Masters Fellow, and was the recipient of the Harold L. Hazen Memorial Award for excellence in teaching in 1991.  In 2000, he received the National Science Foundation CAREER Award, in 2001 he received the Xerox Award for Outstanding Faculty Award, and in 2002 was named a Willett Faculty Scholar.  He has received numerous awards and honors, including Best Paper Awards from the IEEE Solid State Circuits Society in 2006 for his paper in the Journal of Solid State Circuits, and in 2008 from the IEEE Signal Processing Society for his paper in the Signal Processing Magazine.  Dr. Singer has served as an Associate Editor for the IEEE Transactions on Signal Processing and is a member of the MIT Educational Council, and of Eta Kappa Nu and Tau Beta Pi.  He is a Fellow of the IEEE and was selected as a Distinguished Lecturer of the IEEE Signal Processing Society in 2014. From 2005-2017, Dr. Singer served as the Director of the Technology Entrepreneur Center (TEC) in the College of Engineering creating and overseeing courses and activities attended by over 5,000 students annually.  In 2017 he was named Interim Director of the Siebel Center for Design and in 2018 was appointed as Associate Dean for Innovation and Entrepreneurship in the College of Engineering. In 2000, he co-founded Intersymbol Communications, Inc., a venture-funded fabless semiconductor IC company, based in Champaign Illinois, which brought an MLSE-based electronic dispersion compensation chip-set to the optical communications market.  In 2007, Intersymbol Communications, Inc., was acquired by Finisar Corporation. In 2015, he co-founded OceanComm, developer of real-time video capable, Mb/s underwater wireless communication systems. Dr. Singer serves as an expert witness for legal matters in the signal and audio processing and communications industries."
+  },
+  {
+    "name": "Corey Ethan Snyder",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/cesnyde2",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "cesnyde2@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Machine learning and pattern recognition"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "Vision, Audio"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Rayadurgam  Srikant",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/rsrikant",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "rsrikant@illinois.edu",
+    "research_interests": [
+      "Machine Learning",
+      "Communication Networks",
+      "Cloud Computing",
+      "Stochastic Networks",
+      "Game Theory",
+      "Stochastic Control"
+    ],
+    "research_areas": [
+      "Communication networks",
+      "Dynamic games and decision theory",
+      "Machine learning",
+      "Random processes",
+      "Stochastic systems and control"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Theory",
+      "Cyberphysical systems and internet of things",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Distributed computing and storage systems",
+      "Game theory",
+      "Machine learning",
+      "Network science and engineering"
+    ],
+    "bio": "R. Srikant is one of two co-Directors of the C3.ai Digital Transformation Institute, a Grainger Distinguished Chair in Engineering, and Professor in the Department of Electrical and Computer Engineering and the Coordinated Science Lab.  His research interests include machine learning, applied probability, stochastic control, and communication networks. He is the recipient of the 2015 INFOCOM Achievement Award, the 2019 IEEE Koji Kobayashi Computers and  Communications Award and the 2021 ACM SIGMETRICS Achievement Award. He has also received several Best Paper awards including the 2015 INFOCOM Best Paper Award,  the 2017 Applied Probability Society Best Publication Award, and the 2017 WiOpt Best Paper award. He was the Editor-in-Chief of the IEEE/ACM Transactions on Networking from 2013-2017 and is currently an Area Editor for the Mathematics of Operations Research. More than twenty of his former advisees are on the faculty of top universities in the US and around the world, and the rest are in leadership or R&D positions in leading companies."
+  },
+  {
+    "name": "Andrew R. Stillwell",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/andrewrs",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "andrewrs@illinois.edu",
+    "research_interests": [
+      "Power Electronics",
+      "Alternative and Renewable Energy Systems",
+      "Transportation Electrification",
+      "Wide Bandgap Power Devices",
+      "Design Optimization",
+      "Power Converter Design Optimization",
+      "Pulsed Power Design"
+    ],
+    "research_areas": [
+      "Efficient energy management and conversion for lighting, communications, information technology, transportation, and appliances",
+      "Energy storage conversion, management, and control",
+      "Gallium nitride power semiconductors",
+      "Power and Energy Systems",
+      "Power electronics"
+    ],
+    "research_topics": [
+      "Electric transportation",
+      "Solar and renewable technology",
+      "Storage and conversion"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Haohua  Tu",
+    "title": "Research Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/htu",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "htu@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Biomedical imaging",
+      "Lasers and optical physics"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Abhishek K. Umrawal",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/aumrawal",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "aumrawal@illinois.edu",
+    "research_interests": [
+      "Artificial Intelligence (AI): Generative AI, Causal AI, and Trustworthy AI",
+      "Machine Learning (ML): Statistical Learning and Reinforcement Learning",
+      "Theory and Algorithms: Combinatorial Optimization, Approximation Algorithms, and Game Theory",
+      "Applications: Social Networks, Product Recommendations, Conversational Systems, Responsible Text/Code Generation, Intelligent Transportation"
+    ],
+    "research_areas": [
+      "Algorithms and computational complexity"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Systems",
+      "Computational science and engineering",
+      "Game theory",
+      "Machine learning",
+      "Network science and engineering"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Venugopal V. Veeravalli",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/vvv",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "vvv@illinois.edu",
+    "research_interests": [
+      "Cyberphysical Systems",
+      "Wireless Communication",
+      "Sensor Networks",
+      "Information Theory",
+      "Detection and Estimation Theory",
+      "Machine Learning and AI",
+      "Statistical Inference"
+    ],
+    "research_areas": [
+      "Adaptive signal processing",
+      "Computer security, privacy, and information trust",
+      "Distributed algorithms",
+      "Information theory",
+      "Intelligent devices and controls for electricity grids",
+      "Machine learning",
+      "Machine learning and pattern recognition",
+      "Random processes",
+      "Signal detection and estimation",
+      "Stochastic systems and control",
+      "Wireless communication systems"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Theory",
+      "Cyberphysical systems and internet of things",
+      "Cybersecurity and privacy",
+      "Data science and analytics",
+      "Decision science",
+      "Machine learning",
+      "Sensing systems",
+      "Smart grid and energy delivery"
+    ],
+    "bio": "Prof. Veeravalli received the Ph.D. degree in Electrical Engineering from the University of Illinois at Urbana-Champaign in 1992, the M.S. degree from Carnegie-Mellon University in 1987, and the B.Tech degree from Indian Institute of Technology, Bombay (Silver Medal Honors) in 1985. He is currently the Henry Magnuski Professor in the Department of Electrical and Computer Engineering (ECE) at the University of Illinois at Urbana-Champaign, where he also holds appointments with the Coordinated Science Laboratory (CSL), the Department of Statistics, and the Discovery Partners Institute (DPI). He was on the faculty of the School of ECE at Cornell University before he joined Illinois in 2000. He served as a program director for communications research at the U.S. National Science Foundation in Arlington, VA during 2003-2005. His research interests span the theoretical areas of statistical inference, machine learning, and information theory, with applications to data science, wireless communications, and sensor networks.  He is a Fellow of the IEEE and a Fellow of the Institute of Mathematical Statistics. Among the awards he has received for research and teaching are the IEEE Browder J. Thompson Best Paper Award, the U.S. Presidential Early Career Award for Scientists and Engineers (PECASE), and the Abraham Wald Prize in Sequential Analysis (twice). He received the 2023 Fulbright-Nokia Distinguished Chair in Information and Communication Technologies."
+  },
+  {
+    "name": "Yurii Vlasov",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/yvlasov",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "yvlasov@illinois.edu",
+    "research_interests": [
+      "Neuroengineering, Integrated neural probes, neurophotonics, Brain-machine interface, Virtual Reality systems",
+      "Neurobiology, Experimental systems neuroscience, Hierarchical information processing in cortical networks",
+      "Neuroinformatics, Machine learning, dimensionality reduction, network dynamics"
+    ],
+    "research_areas": [
+      "Biosensors and bioelectronics",
+      "Electromagnetics and Optics",
+      "Microelectronics and Photonics",
+      "Nanotechnology"
+    ],
+    "research_topics": [
+      "AI Applications",
+      "Bioelectronics and Bioinformatics",
+      "Electronics, Plasmonics, and Photonics",
+      "Micro & nanoelectromechanical M/NEMS integrated systems",
+      "Nanomedicine and bio-nanotechnology",
+      "Neuro-engineering",
+      "Neuroscience, Biology"
+    ],
+    "bio": "Dr. Yurii Vlasov is a John Bardeen Endowed Chair in Electrical and Computer Engineering and Physics at the University of Illinois at Urbana-Champaign. He is tenured with the departments of Electrical and Computer Engineering, Physics, Materials Science and Engineering, and Bio-Engineering, as well as Carle Illinois College of Medicine. At the UIUC he established the Integrated Neurotechnology lab devoted to development of advanced engineering approaches aimed at reverse engineering of the brain circuits. The major themes include development of silicon-based nanofluidic and nanophotonic neural probes, in-vivo neurobiological experiments with massive recording and manipulation of brain activity, and, lastly, development of machine-learning algorithms to analyze large neural datasets. Prior to joining the UIUC in 2016, Dr. Vlasov held various research and managerial positions at the IBM T.J. Watson Research Center in N.Y. where he led broad company-wide efforts in integrated silicon nanophotonics and more recently in neuromorphic computing architectures. He initiated the Silicon Nanophotonics project in 2001 and managed it for over 15 years from its early fundamental research stage up to commercial manufacturing of optical transceivers for large-scale datacenters and supercomputers. The technology has been fully qualified and deployed for commercial production at GlobalFoundries . Prior to joining IBM in 2001, Dr. Vlasov developed semiconductor nanophotonics at the N.E.C. Research Institute in Princeton, N.J. and at the Strasbourg IPCMS Institute in France. For over a decade, he was also a Research Scientist with the Ioffe Institute of Physics and Technology in St. Petersburg, Russia working on optics of nanostructured semiconductors. He received his M.S. from the University of St. Petersburg (1988) and Ph.D from the Ioffe Institute (1994), both in physics. Dr. Vlasov is a member of the National Academy of Engineering and a Fellow of the APS, the IEEE, and the OSA. He has published over 300 papers, filed over 100 patents, and delivered over 100 invited, plenary and tutorial talks. He received the IBM CEO Corporate Award, the Best of IBM Award, and several IBM Outstanding Technical Achievement Awards, as well as was named Scientist of the Year by the Scientific American journal. Dr. Vlasov and his work has been covered in numerous major newspapers, including New York Times, Forbes , Wall Street Journal, and others. It has been featured on television news programs including The Tonight Show, ABC, CBS, etc. It has also been highlighted in review columns on Science Daily, Scientific American Journal, New Scientist, etc."
+  },
+  {
+    "name": "Lara  Waldrop",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/lwaldrop",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "lwaldrop@illinois.edu",
+    "research_interests": [
+      "Optical remote sensing of atmospheric state parameters",
+      "Space plasma diagnostics",
+      "Computational modeling of radiative processes",
+      "Small satellite mission concept definition"
+    ],
+    "research_areas": [
+      "Atmospheric and ionospheric measurements",
+      "Atmospheric and ionospheric theory",
+      "Radio and optical wave propagation",
+      "Remote Sensing"
+    ],
+    "research_topics": [
+      "Charge particle physics and engineering",
+      "Computational science and engineering",
+      "Data science and analytics",
+      "Photonics: optical engineering and systems",
+      "Sensing systems"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Dong Kai  Wang",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/dwang47",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "dwang47@illinois.edu",
+    "research_interests": [
+      "Novel Models of Computing",
+      "ML for Computer Architecture",
+      "Hardware Accelerators",
+      "CPU Microarchitecture"
+    ],
+    "research_areas": [
+      "Computer architecture",
+      "Logic design and VLSI"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Yu-Lin Wei",
+    "title": "Teaching Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/yulinlw2",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "yulinlw2@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Audio, speech, music and auditory processing"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "Vision, Audio"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Cunjiang Yu",
+    "title": "Founder Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/cunjiang",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "cunjiang@illinois.edu",
+    "research_interests": [
+      "Soft Electronics (flexible/stretchable)",
+      "Bioelectronics and Biosensors",
+      "Organic Electronics",
+      "Robotic Interfaces",
+      "Semiconductor Electronic Devices",
+      "Micro/Nano/Additive Manufacturing"
+    ],
+    "research_areas": [
+      "Bionanotechnology",
+      "Biosensors and bioelectronics"
+    ],
+    "research_topics": [
+      "Healthcare and medical technologies"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Huan  Zhang",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/huanz",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "huanz@illinois.edu",
+    "research_interests": [
+      "Trustworthy Machine Learning",
+      "Formal Verification of Machine Learning",
+      "AI Safety, Robustness, and Reliability"
+    ],
+    "research_areas": [
+      "Formal methods and software verification",
+      "Machine learning",
+      "Machine learning and pattern recognition"
+    ],
+    "research_topics": [
+      "Artificial Intelligence and Autonomous Systems",
+      "NLP, LLM",
+      "Security, Trust, Verification"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Richard Y. Zhang",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/ryz",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "ryz@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Algorithms and computational complexity",
+      "Communications",
+      "Control",
+      "Machine learning",
+      "Power and Energy Systems",
+      "Signal Processing"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Theory",
+      "Computational science and engineering",
+      "Cyberphysical systems and internet of things",
+      "Decision science",
+      "Energy",
+      "Smart grid and energy delivery"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Yupeng Zhang",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/zhangyp",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "zhangyp@illinois.edu",
+    "research_interests": [
+      "Yupeng Zhang's research is in the area of cybersecurity and applied cryptography. Specifically, he focuses on zero-knowledge proofs, secure multiparty computations and their applications in blockchain and machine learning to enhance privacy, integrity and scalability."
+    ],
+    "research_areas": [
+      "Computer security, privacy, and information trust",
+      "Cryptographic systems and protocols"
+    ],
+    "research_topics": [
+      "Cybersecurity and privacy"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Yang  Zhao",
+    "title": "Assistant Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/yzhaoui",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "yzhaoui@illinois.edu",
+    "research_interests": [],
+    "research_areas": [
+      "Bioelectromagnetics",
+      "Biomedical imaging",
+      "Biosensors and bioelectronics",
+      "Electromagnetic theory",
+      "Nano-biosystems",
+      "Nano-materials",
+      "Nano-photonics"
+    ],
+    "research_topics": [],
+    "bio": null
+  },
+  {
+    "name": "Zhizhen Jane  Zhao",
+    "title": "Associate Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/zhizhenz",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "zhizhenz@illinois.edu",
+    "research_interests": [
+      "Machine learning and data science",
+      "Imaging sciences and inverse problems",
+      "Signal processing"
+    ],
+    "research_areas": [
+      "Biomedical imaging",
+      "Biomedical Imaging, Bioengineering, and Acoustics",
+      "Machine learning and pattern recognition",
+      "Signal Processing"
+    ],
+    "research_topics": [
+      "AI Algorithms",
+      "AI Applications",
+      "Computational science and engineering",
+      "Data science and analytics",
+      "Data/Information Science and Systems",
+      "Imaging science and systems",
+      "Machine learning",
+      "Medical imaging"
+    ],
+    "bio": null
+  },
+  {
+    "name": "Wenjuan  Zhu",
+    "title": "Professor",
+    "url": "https://ece.illinois.edu/about/directory/faculty/wjzhu",
+    "university": "UIUC",
+    "department": "ECE",
+    "email": "wjzhu@illinois.edu",
+    "research_interests": [
+      "Two-dimensional (2D) materials",
+      "Ferroelectric Materials",
+      "Nano-scale electronic and photonic devices",
+      "High-temperature electronics",
+      "Microelectronics"
+    ],
+    "research_areas": [
+      "Microelectronics and Photonics",
+      "Nanotechnology"
+    ],
+    "research_topics": [
+      "Beyond CMOS",
+      "Electronics, Plasmonics, and Photonics"
+    ],
+    "bio": null
+  }
+]
