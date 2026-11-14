@@ -1,0 +1,15 @@
+fastapi[standard]
+pydantic-settings
+psycopg[binary,pool]
+pdfplumber
+sentence-transformers
+anthropic
+groq
+beautifulsoup4
+lxml
+requests
+python-dotenv
+
+# dev
+pytest
+httpx

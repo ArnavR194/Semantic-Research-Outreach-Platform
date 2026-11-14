@@ -40,33 +40,33 @@ Personalized Email Generation
 | Database | PostgreSQL 17 |
 | Resume Parsing | pdfplumber + regex + Anthropic API fallback |
 | Paper Fetching | Semantic Scholar API |
-| Backend | Python |
+| Backend | FastAPI (Python) |
 | Similarity | Cosine similarity (384-dim vectors) |
 
 ## Project Structure
 
 ```
-research-outreach-ai/
-│
-├── crawler/
-│   ├── crawler.py          # UIUC ECE faculty directory scraper
-│   └── fetch_papers.py     # Semantic Scholar paper fetcher
-│
-├── embeddings/
-│   └── embeddings.py       # Embedding generation + DB loading
-│
-├── resume_parser/
-│   └── parse_resume.py     # Hybrid resume parser (heuristic + LLM fallback)
-│
-├── ranking/
-│   ├── match.py            # Vector similarity search
-│   ├── reranker.py         # Multi-signal reranker
-│   └── email_generator.py  # RAG email generation
-│
-├── database/
-│   └── database.sql        # PostgreSQL schema
-│
-└── requirements.txt
+app/                         # FastAPI backend (the thing your frontend talks to)
+├── main.py                  # app factory, CORS, lifespan (DB pool + model loaded once)
+├── config.py                # all settings from env / .env
+├── db.py                    # psycopg connection pool + pgvector helpers
+├── schemas.py               # Pydantic request/response models (the API contract)
+├── repository.py            # all SQL for students / professors
+├── api/routes/              # students.py, emails.py, professors.py
+└── services/                # pure logic, shared by the API and pipelines
+    ├── embedder.py          # sentence-transformer wrapper (swappable)
+    ├── resume_parser.py     # hybrid parser (heuristic + Claude fallback)
+    ├── retriever.py         # pgvector search over professors and papers
+    ├── reranker.py          # multi-signal reranker (no DB access)
+    ├── pipeline.py          # retrieve → rerank → ground → generate
+    └── email/
+        ├── context.py       # grounding context shared by both generators
+        ├── template.py      # deterministic template generator (baseline)
+        └── llm.py           # Claude generator, grounded in the same context
+pipelines/                   # offline jobs: migrate, crawl, embed_professors, fetch_papers, demo
+migrations/                  # SQL schema (idempotent)
+data/                        # professors.json + raw crawled HTML
+tests/
 ```
 
 ## How It Works
@@ -109,56 +109,57 @@ For each top-matched professor:
 
 ### Prerequisites
 - Python 3.10+
-- PostgreSQL 17 with pgvector extension
-- Semantic Scholar API key (free at semanticscholar.org/product/api)
+- PostgreSQL 13+ with the pgvector extension
+- Optional: Anthropic API key (LLM resume fallback + `llm` email generator)
+- Optional: Semantic Scholar API key (only for re-fetching papers)
 
-### Installation
+### Install
 
 ```bash
-git clone https://github.com/yourusername/research-outreach-ai
-cd research-outreach-ai
-
-python -m venv .venv
-source .venv/bin/activate
-
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env        # then set DATABASE_URL etc.
 ```
 
-### Database Setup
+### Build the database
 
 ```bash
 createdb research_outreach
-psql research_outreach -c "CREATE EXTENSION vector;"
-psql research_outreach -f database/database.sql
+python -m pipelines.migrate              # schema (safe to re-run)
+python -m pipelines.crawl                # optional: re-scrape faculty → data/professors.json
+python -m pipelines.embed_professors     # load + embed professors (safe to re-run)
+python -m pipelines.fetch_papers         # fetch + embed papers (needs SEMANTIC_SCHOLAR_API_KEY)
 ```
 
-### Run Pipeline
+### Run
 
 ```bash
-# 1. Crawl faculty
-python crawler/crawler.py
-
-# 2. Generate and store embeddings
-python embeddings/embeddings.py
-
-# 3. Fetch research papers
-python crawler/fetch_papers.py
-
-# 4. Parse resume and generate emails
-python ranking/email_generator.py
+uvicorn app.main:app --reload            # API at http://localhost:8000, docs at /docs
+python -m pipelines.demo ML_Resume.pdf   # CLI end-to-end run without the API
+pytest                                   # tests (no DB needed)
 ```
 
-## Requirements
+## API
 
-```
-pdfplumber
-psycopg2-binary
-sentence-transformers
-beautifulsoup4
-lxml
-requests
-anthropic
-```
+Interactive docs at `/docs`; machine-readable spec at `/openapi.json`.
+
+| Method | Path | Purpose |
+|---|---|---|
+| `POST` | `/resumes` | Multipart upload (`file`=PDF). Parses, embeds, returns a `Student` with `id`. |
+| `GET` | `/students/{id}` | Fetch a student's parsed profile. |
+| `PATCH` | `/students/{id}` | Fix parsed fields (`skills`, `interests`, `year`, ...). Re-embeds. |
+| `DELETE` | `/students/{id}` | Delete a student. |
+| `GET` | `/students/{id}/matches?k=10` | Reranked professors with per-signal scores and matched evidence. |
+| `POST` | `/emails` | `{student_id, professor_id, generator: "template" or "llm"}` → subject, body, grounding context. |
+| `GET` | `/professors?q=&limit=&offset=` | List or search professors. |
+| `GET` | `/professors/{id}` | Professor profile and papers. |
+| `GET` | `/health` | Liveness and config summary. |
+
+### Connecting a Lovable frontend
+
+1. Deploy the API (the `Dockerfile` bakes in the embedding model): Render, Railway, or Fly.io all work. Set `DATABASE_URL` and, optionally, `ANTHROPIC_API_KEY`. Supabase Postgres has pgvector if you want a hosted DB.
+2. CORS already allows `*.lovable.app` / `*.lovableproject.com` (`CORS_ORIGIN_REGEX`); add a custom domain with `CORS_ORIGINS`.
+3. In Lovable, give it the API base URL and paste `<base>/openapi.json` so it generates typed calls. Suggested flow: upload resume → review/edit parsed profile (`PATCH`) → match list showing score chips → "Draft email" per professor → copy / open in mail client.
 
 ## Key Design Decisions
 
