@@ -1,8 +1,20 @@
 """Fetch recent papers per professor from Semantic Scholar, embed, and store them.
 
-    SEMANTIC_SCHOLAR_API_KEY=... python -m pipelines.fetch_papers
+    python -m pipelines.fetch_papers            # only professors with no papers yet
+    python -m pipelines.fetch_papers --all      # refetch everyone, replacing their papers
+    python -m pipelines.fetch_papers --only "Deming Chen" --dry-run
+
+Name search alone pulls in namesakes (e.g. an emergency-medicine "Andrew Singer"), so
+attribution works like this:
+  1. search papers for "<first> <last>" plus up to two of the professor's research terms
+  2. for every result author whose name contains the last name, add a vote equal to the
+     paper's similarity to the professor's research-profile embedding
+  3. keep only papers by the single author ID with the most votes, and only if that
+     author clears MIN_VOTES; otherwise store nothing rather than a wrong paper.
 """
+import argparse
 import time
+from collections import defaultdict
 
 import requests
 
@@ -10,186 +22,147 @@ from app.config import get_settings
 from app.db import connect, to_vector
 from app.services.embedder import get_embedder
 
+from pipelines.embed_professors import clean_interests
+
 _key = get_settings().semantic_scholar_api_key
 HEADERS = {"x-api-key": _key} if _key else {}
 
-SEMANTIC_SCHOLAR_URL = "https://api.semanticscholar.org/graph/v1/author/search"
-PAPER_FIELDS = "title,abstract,year,url,externalIds"
+PAPER_SEARCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
+SEARCH_FIELDS = "title,abstract,year,url,authors"
 
-def search_author(name):
-    """
-    Find a professor's Semantic Scholar author ID.
-    Strategy: search by name, pick the author with the most papers
-    (most likely the established researcher, not a student).
-    """
-    url = "https://api.semanticscholar.org/graph/v1/author/search"
-    params = {
-        "query": name,
-        "fields": "name,affiliations,paperCount,homepage",
-        "limit": 5
-    }
-    resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-    if resp.status_code != 200:
-        return None
+MIN_VOTES = 1.0       # summed similarity the winning author ID needs
+PAPERS_PER_PROF = 10
+_MIN_INTERVAL = 1.1   # keyed limit is 1 request/second
+_last_call = 0.0
 
-    authors = resp.json().get("data", [])
-    if not authors:
-        # Try with just last name + first initial
-        parts = name.strip().split()
-        if len(parts) >= 2:
-            short_name = f"{parts[0][0]} {parts[-1]}"
-            params["query"] = short_name
-            resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-            if resp.status_code != 200:
-                return None
-            authors = resp.json().get("data", [])
 
-    if not authors:
-        return None
+def _get(url, params, retries=6):
+    """Throttled GET that backs off and retries on 429 / 5xx."""
+    global _last_call
+    for attempt in range(retries):
+        wait = _MIN_INTERVAL - (time.monotonic() - _last_call)
+        if wait > 0:
+            time.sleep(wait)
+        _last_call = time.monotonic()
+        try:
+            resp = requests.get(url, params=params, headers=HEADERS, timeout=30)
+        except requests.RequestException as e:  # timeouts / dropped connections
+            print(f"    retrying after {type(e).__name__}")
+            time.sleep(2 ** attempt)
+            continue
+        if resp.status_code != 429 and resp.status_code < 500:
+            return resp
+        time.sleep(2 ** attempt)
+    raise RuntimeError(f"Semantic Scholar unavailable after {retries} attempts: {url}")
 
-    # Pick author with highest paper count — most likely the professor
-    best = max(authors, key=lambda a: a.get("paperCount", 0))
 
-    # Sanity check — skip if paper count is suspiciously low (likely a student)
-    if best.get("paperCount", 0) < 5:
-        return None
+def _cosine(a, b):
+    # all-MiniLM embeddings are L2-normalised, so the dot product is the cosine
+    return sum(x * y for x, y in zip(a, b))
 
-    return best["authorId"]
 
-def fetch_papers(author_id, limit=5):
-    url = f"https://api.semanticscholar.org/graph/v1/author/{author_id}/papers"
-    params = {
-        "fields": PAPER_FIELDS,
-        "limit": limit,
-    }
-    resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-    if resp.status_code != 200:
-        return []
-    
-    papers = resp.json().get("data", [])
-    # Sort by year descending to get most recent
-    papers.sort(key=lambda p: p.get("year") or 0, reverse=True)
-    return papers[:limit]
+def research_terms(prof, n=2):
+    terms = []
+    for col in ("research_interests", "research_areas", "research_topics"):
+        terms += clean_interests(prof.get(col) or [])
+    return list(dict.fromkeys(terms))[:n]
 
-def store_papers(professor_email, papers, cur):
-    """Embed and store papers in DB."""
+
+def find_papers(prof, prof_embedding, limit=PAPERS_PER_PROF):
+    """Return (papers, author_id, votes) for the best-matching Semantic Scholar author."""
+    parts = [p for p in prof["name"].split() if len(p) > 1]
+    first, last = parts[0], parts[-1]
+    name = f"{first} {last}"
+    queries = [name] + [f"{name} {t}" for t in research_terms(prof)]
+
+    seen = {}
+    for q in queries:
+        resp = _get(PAPER_SEARCH_URL, {"query": q, "fields": SEARCH_FIELDS, "limit": 50})
+        if resp.status_code == 200:
+            for p in resp.json().get("data", []):
+                if p.get("abstract") and p.get("title"):
+                    seen.setdefault(p["paperId"], p)
+
+    embedder = get_embedder()
+    votes = defaultdict(float)
+    by_author = defaultdict(list)
+    for p in seen.values():
+        emb = embedder.encode(f"{p['title']}. {p['abstract']}")
+        p["_embedding"] = emb
+        sim = _cosine(prof_embedding, emb)
+        for a in p.get("authors", []):
+            if last.lower() in (a.get("name") or "").lower() and a.get("authorId"):
+                votes[a["authorId"]] += max(sim, 0.0)
+                by_author[a["authorId"]].append(p)
+
+    if not votes:
+        return [], None, 0.0
+    best = max(votes, key=votes.get)
+    if votes[best] < MIN_VOTES:
+        return [], best, votes[best]
+
+    papers = sorted(by_author[best], key=lambda p: p.get("year") or 0, reverse=True)
+    return papers[:limit], best, votes[best]
+
+
+def store_papers(conn, professor_email, papers, replace=False):
+    if replace:
+        conn.execute("DELETE FROM papers WHERE professor_email = %s", (professor_email,))
     stored = 0
-    for paper in papers:
-        title = paper.get("title", "")
-        abstract = paper.get("abstract") or ""
-        year = paper.get("year")
-        url = paper.get("url", "")
-
-        if not title:
-            continue
-
-        # Skip papers with no abstract — not useful for matching
-        if not abstract:
-            continue
-
-        # Embed title + abstract together
-        text = f"{title}. {abstract}"
-        embedding = get_embedder().encode(text)
-
+    for p in papers:
         # papers has no unique constraint, so dedupe explicitly on (professor, title)
-        inserted = cur.execute("""
+        stored += conn.execute("""
             INSERT INTO papers (professor_email, title, abstract, year, url, embedding)
             SELECT %s, %s, %s, %s, %s, %s::vector
             WHERE NOT EXISTS (SELECT 1 FROM papers WHERE professor_email = %s AND title = %s)
-        """, (professor_email, title, abstract, year, url, to_vector(embedding),
-              professor_email, title)).rowcount
-        stored += inserted
-
+        """, (professor_email, p["title"], p["abstract"], p.get("year"), p.get("url", ""),
+              to_vector(p["_embedding"]), professor_email, p["title"])).rowcount
     return stored
 
-def fetch_papers_by_name(professor_name, limit=10):
-    url = "https://api.semanticscholar.org/graph/v1/paper/search"
-    
-    # Clean name for searching — remove middle initials and extra spaces
-    parts = [p for p in professor_name.strip().split() if len(p) > 1]
-    first = parts[0]
-    last = parts[-1]
-    
-    # Search with first + last name only for better results
-    params = {
-        "query": f"{first} {last}",
-        "fields": "title,abstract,year,url,authors",
-        "limit": 20
-    }
-    resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-    
-    
-    if resp.status_code != 200:
-        return []
 
-    papers = resp.json().get("data", [])
-    last_name = last.lower()
-
-    matched = []
-    for paper in papers:
-        authors = paper.get("authors", [])
-        for author in authors:
-            author_name = author.get("name", "").lower()
-            # Match on last name only — handles "A. Schwing", "Alex Schwing", etc.
-            if last_name in author_name:
-                if paper.get("abstract"):
-                    matched.append(paper)
-                break
-
-    matched.sort(key=lambda p: p.get("year") or 0, reverse=True)
-    return matched[:limit]
-
-def fetch_all_professors(limit=None):
+def main(refetch_all=False, only=None, dry_run=False):
+    sql = """SELECT name, email, embedding::text AS embedding,
+                    research_interests, research_areas, research_topics
+             FROM professors p WHERE email IS NOT NULL AND embedding IS NOT NULL"""
+    if only:
+        sql += " AND name ILIKE %(only)s"
+    elif not refetch_all:
+        sql += " AND NOT EXISTS (SELECT 1 FROM papers x WHERE x.professor_email = p.email)"
     with connect() as conn:
-        professors = conn.execute("SELECT name, email FROM professors ORDER BY name").fetchall()
-        if limit:
-            professors = professors[:limit]
+        profs = conn.execute(sql + " ORDER BY name", {"only": f"%{only}%"}).fetchall()
 
-        total_papers = 0
-        for row in professors:
-            name, email = row["name"], row["email"]
-            print(f"  Fetching papers for {name}...")
-            papers = fetch_papers_by_name(name, limit=10)
-            if not papers:
-                print("    No papers found")
-                time.sleep(1)
-                continue
-
-            stored = store_papers(email, papers, conn)
+    replace = refetch_all or bool(only)
+    total, skipped, failed = 0, [], []
+    for prof in profs:
+        emb = [float(x) for x in prof["embedding"].strip("[]").split(",")]
+        try:
+            papers, author_id, votes = find_papers(prof, emb)  # slow network part, no DB held
+        except RuntimeError as e:
+            print(f"  {prof['name']:<35} -> FAILED ({e}); rerun to retry")
+            failed.append(prof["name"])
+            continue
+        label = f"{prof['name']:<35} author={author_id} votes={votes:.2f}"
+        if dry_run:
+            print(f"  {label}  -> {len(papers)} papers" + (f", e.g. {papers[0]['title'][:60]!r}" if papers else ""))
+            continue
+        # Short-lived connection per professor: hosted poolers drop long idle sessions.
+        with connect() as conn:
+            n = store_papers(conn, prof["email"], papers, replace=replace)
             conn.commit()
-            print(f"    Stored {stored} papers")
-            total_papers += stored
-            time.sleep(0.5)
+        if not papers:
+            print(f"  {label}  -> skipped (no confident match)" + (", old papers cleared" if replace else ""))
+            skipped.append(prof["name"])
+        else:
+            print(f"  {label}  -> stored {n}")
+        total += n
 
-    print(f"\nDone. Total papers stored: {total_papers}")
-
-
-def debug_paper_search(name):
-    parts = [p for p in name.strip().split() if len(p) > 1]
-    first = parts[0]
-    last = parts[-1]
-    
-    url = "https://api.semanticscholar.org/graph/v1/paper/search"
-    params = {
-        "query": f"{first} {last}",
-        "fields": "title,abstract,year,url,authors",
-        "limit": 10
-    }
-    resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-    print(f"Status: {resp.status_code}")
-    data = resp.json()
-    print(f"Total results: {data.get('total', 0)}")
-    for paper in data.get("data", []):
-        authors = [a["name"] for a in paper.get("authors", [])]
-        print(f"  Title: {paper.get('title', '')[:60]}")
-        print(f"  Authors: {authors[:4]}")
-        print(f"  Has abstract: {bool(paper.get('abstract'))}")
-        print()
-
+    print(f"\nDone. Stored {total} papers; {len(skipped)} skipped; {len(failed)} failed on network errors.")
 
 
 if __name__ == "__main__":
-    # Test with 5 professors first
-    fetch_all_professors(limit=None)
-
-  
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--all", action="store_true", help="refetch every professor and replace their papers")
+    ap.add_argument("--only", help="substring of one professor's name")
+    ap.add_argument("--dry-run", action="store_true", help="print matches without writing")
+    args = ap.parse_args()
+    main(refetch_all=args.all, only=args.only, dry_run=args.dry_run)

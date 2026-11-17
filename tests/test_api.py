@@ -86,6 +86,7 @@ def test_email_template(client):
 def test_email_llm_without_key_is_503(client, monkeypatch):
     from app.config import get_settings
     monkeypatch.setattr(get_settings(), "anthropic_api_key", None)
+    monkeypatch.setattr(get_settings(), "groq_api_key", None)
     r = client.post("/emails", json={"student_id": str(SID), "professor_id": 7, "generator": "llm"})
     assert r.status_code == 503
 

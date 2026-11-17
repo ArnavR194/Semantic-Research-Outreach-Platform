@@ -39,7 +39,7 @@ class Settings(BaseSettings):
     anthropic_api_key: str | None = None
     anthropic_model: str = Field("claude-opus-5-5", validation_alias=AliasChoices("anthropic_model", "llm_model"))
     groq_api_key: str | None = None
-    groq_model: str = "llama-3.3-70b-versatile"
+    groq_model: str = "openai/gpt-oss-120b"
     parser_confidence_threshold: float = 0.6
     max_upload_mb: int = 10
 
